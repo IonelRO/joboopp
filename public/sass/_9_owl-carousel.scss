@@ -1,0 +1,164 @@
+/* 9 Owl carousel
+----------------------------------------------------------------------------- */
+.owl-carousel {
+  z-index: 4;
+}
+.owl-carousel .owl-item>div {
+  margin: 10px 0 20px;
+}
+.owl-carousel.carousel .owl-item>div,
+.owl-carousel.carousel-autoplay .owl-item>div {
+  margin: 10px 20px 20px 0;
+}
+.owl-carousel.clients .owl-item>div {
+  margin: 0px 30px 0px 0;
+}
+.well.owl-carousel .owl-item>div {
+  margin: 10px 0 0;
+}
+.tab-content .owl-carousel .owl-item>div {
+  margin: 0 0 20px;
+}
+
+/* caption */
+.caption {
+  background-color: rgba($white, 0.85);
+  padding: 15px;
+  position: absolute;
+  bottom: 80px;
+  left: 80px;
+  width: 40%;
+  border: 1px solid $white;
+}
+.caption .title {
+  margin-top: 0;
+}
+
+/* Medium devices (desktops, tablets less than 991px) */
+@media (max-width:991px) {
+  .caption {
+    width: 90%;
+    bottom: 40px;
+    left: 40px;
+  }
+}
+
+/* Small devices (tablets, phones less than 767px) */
+@media (max-width:767px) {
+  .caption {
+    width: 100%;
+    bottom: 30px;
+    left: 0;
+    position: relative;
+    background-color: $light-gray-background;
+    bottom: 0;
+    padding-bottom: 35px;
+  }
+}
+
+/* owl controls */
+.owl-nav {
+  width: 100%;
+  margin-bottom: 50px;
+}
+.owl-nav button {
+  display: inline-block;
+  zoom: 1;
+  padding: 3px 10px;
+  font-size: 12px;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  @include transition(all 0.2s ease-in-out);
+}
+.owl-carousel .owl-nav button.owl-prev {
+  left: 0;
+  background-color: $base-color;
+  color: #f1f1f1;
+}
+.owl-carousel .owl-nav button.owl-next {
+  left: 30px;
+  background-color: #f1f1f1;
+  color: $base-color;
+}
+.owl-carousel .owl-nav button.owl-prev:hover,
+.owl-carousel .owl-nav button.owl-next:hover,
+.gray-bg .owl-carousel .owl-nav button.owl-next:hover {
+  background-color: #333333;
+  color: #f1f1f1;
+}
+.gray-bg .owl-carousel .owl-nav button.owl-next {
+  background-color: $white;
+}
+.owl-nav button:after {
+  font-family: "FontAwesome";
+  font-size: 18px;
+  line-height: 26px;
+}
+.owl-prev:after {
+  content: "\f104";
+}
+.owl-next:after {
+  content: "\f105";
+}
+.owl-nav button:hover {
+  filter: Alpha(Opacity=100);
+  opacity: 1;
+  text-decoration: none;
+}
+.content-slider-with-controls {
+  margin-bottom: 20px;
+}
+.content-slider-with-controls .owl-nav,
+.content-slider-with-controls-autoplay .owl-nav {
+  margin-bottom: 0;
+}
+.content-slider-with-controls .owl-nav button,
+.content-slider-with-controls-autoplay .owl-nav button {
+  top: 50%;
+  margin-top: -15px;
+  background-color: $base-color;
+  color: #f1f1f1;
+}
+.content-slider-with-controls .owl-nav button.owl-next,
+.content-slider-with-controls-autoplay .owl-nav button.owl-next {
+  left: auto;
+  right: 0;
+}
+.content-slider-with-controls .owl-prev:hover,
+.content-slider-with-controls .owl-next:hover,
+.content-slider-with-controls-autoplay .owl-prev:hover,
+.content-slider-with-controls-autoplay .owl-next:hover {
+  background-color: #f1f1f1;
+  color: $base-color;
+}
+.content-slider-with-controls-bottom .owl-dots {
+  bottom: -30px;
+  z-index: -1;
+}
+.content-slider-with-controls-bottom .owl-dots .owl-dot span {
+  background: #acacac;
+}
+.owl-dots {
+  position: absolute;
+  bottom: 25px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+}
+.owl-dots .owl-dot {
+  display: inline-block;
+  zoom: 1;
+}
+.owl-dots .owl-dot span {
+  display: block;
+  width: 12px;
+  height: 12px;
+  margin: 5px 4px;
+  background: $white;
+}
+.owl-dots .owl-dot.active span,
+.owl-dots .owl-dot:hover span {
+  background: $base-color;
+}

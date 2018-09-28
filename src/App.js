@@ -17,6 +17,14 @@ class App extends Component {
       adresa: 'Str Gen.Magheru,Tg-Jiu,jud.Gorj', locDeMuncaVacant: 'LUCRATOR GESTIONAR',
       conditiiDeOcupare: 'LICEU', nrLocuri: '1', telefon:  '0765451836', email: 'scopi@apsg.eu'
       },
+      {id:'3', judet: 'gorj', luna: 'iulie', img: 'images/portfolio-1.jpg', angajator: 'RADU S 81 SRL',
+      adresa: 'Str Gen.Magheru,Tg-Jiu,jud.Gorj', locDeMuncaVacant: 'LUCRATOR GESTIONAR',
+      conditiiDeOcupare: 'LICEU', nrLocuri: '1', telefon:  '0765451836', email: 'scopi@apsg.eu'
+      },
+      {id:'4', judet: 'gorj', luna: 'iulie', img: 'images/portfolio-1.jpg', angajator: 'RADU S 81 SRL',
+      adresa: 'Str Gen.Magheru,Tg-Jiu,jud.Gorj', locDeMuncaVacant: 'LUCRATOR GESTIONAR',
+      conditiiDeOcupare: 'LICEU', nrLocuri: '1', telefon:  '0765451836', email: 'scopi@apsg.eu'
+      },
     ] };
   }
 
@@ -24,7 +32,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header/>
+       
         
          {this.state.super.map(lmv =>
        

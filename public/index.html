@@ -14,35 +14,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/images/favicon.ico">
 
     <!-- Web Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
 
     <!-- Bootstrap core CSS -->
-    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="%PUBLIC_URL%/bootstrap/css/bootstrap.css" rel="stylesheet">
 
     <!-- Font Awesome CSS -->
-    <link href="fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="%PUBLIC_URL%/fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
 
     <!-- Plugins -->
-    <link href="plugins/rs-plugin-5/css/settings.css" rel="stylesheet">
-    <link href="plugins/rs-plugin-5/css/layers.css" rel="stylesheet">
-    <link href="plugins/rs-plugin-5/css/navigation.css" rel="stylesheet">
-    <link href="plugins/magnific-popup/magnific-popup.css" rel="stylesheet">
-    <link href="css/animations.css" rel="stylesheet">
-    <link href="plugins/owl-carousel/assets/owl.carousel.css" rel="stylesheet">
-    <link href="plugins/owl-carousel/assets/owl.theme.default.min.css" rel="stylesheet">
+    <link href="%PUBLIC_URL%/plugins/rs-plugin-5/css/settings.css" rel="stylesheet">
+    <link href="%PUBLIC_URL%/plugins/rs-plugin-5/css/layers.css" rel="stylesheet">
+    <link href="%PUBLIC_URL%/plugins/rs-plugin-5/css/navigation.css" rel="stylesheet">
+    <link href="%PUBLIC_URL%/plugins/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <link href="%PUBLIC_URL%/css/animations.css" rel="stylesheet">
+    <link href="%PUBLIC_URL%/plugins/owl-carousel/assets/owl.carousel.css" rel="stylesheet">
+    <link href="%PUBLIC_URL%/plugins/owl-carousel/assets/owl.theme.default.min.css" rel="stylesheet">
 
     <!-- IDea core CSS file -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="%PUBLIC_URL%/css/style.css" rel="stylesheet">
 
     <!-- Color Scheme (In order to change the color scheme, replace the red.css with the color scheme that you prefer)-->
-    <link href="css/skins/red.css" rel="stylesheet">
+    <link href="%PUBLIC_URL%/css/skins/red.css" rel="stylesheet">
 
     <!-- Custom css -->
-    <link href="css/custom.css" rel="stylesheet">
+    <link href="%PUBLIC_URL%/css/custom.css" rel="stylesheet">
 
 
   </head>
@@ -51,7 +51,7 @@
       homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
-    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+   
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -63,7 +63,810 @@
     -->
     <title>React App</title>
   </head>
-  <body>
+  <body class="front">
+    <!-- scrollToTop -->
+    <!-- ================ -->
+    <div class="scrollToTop"><i class="fa fa-angle-up"></i></div>
+
+    <!-- page wrapper start -->
+    <!-- ================ -->
+    <div class="page-wrapper">
+
+      <!-- header-top start (Add "dark" class to .header-top in order to enable dark header-top e.g <div class="header-top dark">) -->
+      <!-- ================ -->
+      <div class="header-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-2 col-sm-6">
+
+              <!-- header-top-first start -->
+              <!-- ================ -->
+              <div class="header-top-first clearfix">
+                <ul class="social-links clearfix hidden-xs">
+                  <li class="twitter"><a href="https://twitter.com/AsPsihGorjeni"><i class="fa fa-twitter"></i></a></li>                  
+                  <li class="linkedin"><a href="https://www.linkedin.com/company/asociatia-psihologilor-gorjeni/"><i class="fa fa-linkedin"></i></a></li>
+                  <li class="youtube"><a href="https://www.youtube.com/c/Asociatia%20Psihologilor%20Gorjeni"><i class="fa fa-youtube-play"></i></a></li>
+                  <li class="facebook"><a href="https://www.facebook.com/Psihologi/"><i class="fa fa-facebook"></i></a></li>
+                </ul>             
+              </div>
+              <!-- header-top-first end -->
+
+            </div>
+            <div class="col-xs-10 col-sm-6">
+
+              <!-- header-top-second start -->
+              <!-- ================ -->
+              <div id="header-top-second"  class="clearfix">
+
+                <!-- header top dropdowns start -->
+                <!-- ================ -->
+                <div class="header-top-dropdown">
+                  <div class="btn-group dropdown">
+                    <button type="button" class="btn dropdown-toggle" data-toggle="dropdown"><i class="fa fa-search"></i> Search</button>
+                    <ul class="dropdown-menu dropdown-menu-right dropdown-animation">
+                      <li>
+                        <form role="search" class="search-box">
+                          <div class="form-group has-feedback">
+                            <input type="text" class="form-control" placeholder="Search">
+                            <i class="fa fa-search form-control-feedback"></i>
+                          </div>
+                        </form>
+                      </li>
+                    </ul>
+                  </div>              
+                  
+                </div>
+                <!--  header top dropdowns end -->
+
+              </div>
+              <!-- header-top-second end -->
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- header-top end -->
+      <header class="header fixed clearfix">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+
+              <!-- header-left start -->
+              <!-- ================ -->
+              <div class="header-left clearfix">
+
+                <!-- logo -->
+                <div class="logo">
+                  <a href="index.html"><img id="logo" src="%PUBLIC_URL%/images/logo_redAPSG.png" alt="IDea"></a>
+                </div>
+
+                <!-- name-and-slogan -->
+                <div class="site-slogan">
+                  Portal locuri de munca
+                </div>
+
+              </div>
+              <!-- header-left end -->
+
+            </div>
+            <div class="col-md-9">
+
+              <!-- header-right start -->
+              <!-- ================ -->
+              <div class="header-right clearfix">
+
+                <!-- main-navigation start -->
+                <!-- ================ -->
+                <div class="main-navigation animated">
+
+                  <!-- navbar start -->
+                  <!-- ================ -->
+                  <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+
+                      <!-- Toggle get grouped for better mobile display -->
+                      <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+                          <span class="sr-only">Toggle navigation</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                        </button>
+                      </div>
+
+                      <!-- Collect the nav links, forms, and other content for toggling -->
+                      <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                          <li class="dropdown active">
+                            <a href="%PUBLIC_URL%/index.html" class="dropdown-toggle" data-toggle="dropdown">Home</a>
+                            <ul class="dropdown-menu">
+                              <li class="active"><a href="index.html">Home - Default</a></li>
+                              <li><a href="%PUBLIC_URL%/index-2.html">Home - 2</a></li>
+                              <li><a href="%PUBLIC_URL%/index-3.html">Home - 3</a></li>
+                              <li><a href="index-4.html">Home - 4</a></li>
+                              <li><a href="index-5.html">Home - 5</a></li>
+                              <li><a href="index-6.html">Home - 6 <span class="badge">v1.2</span></a></li>
+                              <li><a href="index-7.html">Home - 7 <span class="badge">v1.2</span></a></li>
+                              <li><a href="index-landing.html">Home - Landing <span class="badge">v1.3</span></a></li>
+                              <li><a href="index-text-rotator.html">Home - Text Rotator <span class="badge">v1.3</span></a></li>
+                              <li><a href="index-video-background.html">Home - Video Bg <span class="badge">v1.3</span></a></li>
+                              <li><a href="index-shop.html">Home - Shop <span class="badge">v1.2</span></a></li>
+                              <li><a href="index-one-page.html">One Page Version</a></li>
+                              <li><a href="index-boxed-slideshow.html">Home - Boxed Slider</a></li>
+                              <li><a href="index-no-slideshow.html">Home - Without Slider</a></li>
+                            </ul>
+                          </li>
+                          <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Features</a>
+                            <ul class="dropdown-menu">
+                              <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Email Templates <span class="default-bg badge">v1.1</span></a>
+                                <ul class="dropdown-menu">
+                                  <li><a target="_blank" href="../email_templates/email_template_red.html">Email Template Red</a></li>
+                                  <li><a target="_blank" href="../email_templates/email_template_blue.html">Email Template Blue</a></li>
+                                  <li><a target="_blank" href="../email_templates/email_template_brown.html">Email Template Brown</a></li>
+                                  <li><a target="_blank" href="../email_templates/email_template_dark_cyan.html">Email Template Dark Cyan</a></li>
+                                  <li><a target="_blank" href="../email_templates/email_template_dark_gray.html">Email Template Dark Gray</a></li>
+                                  <li><a target="_blank" href="../email_templates/email_template_dark_red.html">Email Template Dark Red</a></li>
+                                  <li><a target="_blank" href="../email_templates/email_template_green.html">Email Template Green</a></li>
+                                  <li><a target="_blank" href="../email_templates/email_template_light_blue.html">Email Template Light Blue</a></li>
+                                  <li><a target="_blank" href="../email_templates/email_template_light_green.html">Email Template Light Green</a></li>
+                                  <li><a target="_blank" href="../email_templates/email_template_orange.html">Email Template Orange</a></li>
+                                  <li><a target="_blank" href="../email_templates/email_template_pink.html">Email Template Pink</a></li>
+                                  <li><a target="_blank" href="../email_templates/email_template_purple.html">Email Template Purple</a></li>
+                                  <li><a target="_blank" href="../email_templates/email_template_yellow.html">Email Template Yellow</a></li>
+                                </ul>
+                              </li>
+                              <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Headers <span class="default-bg badge">v1.2</span></a>
+                                <ul class="dropdown-menu">
+                                  <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Layouts <span class="default-bg badge">v1.1</span></a>
+                                    <ul class="dropdown-menu">
+                                      <li><a href="features-header-1.html">Light - Layout 1 (Default)</a></li>
+                                      <li><a href="features-header-2.html">Light - Layout 2</a></li>
+                                      <li><a href="features-header-3.html">Light - Layout 3</a></li>
+                                      <li><a href="features-header-1-dark.html">Dark - Layout 1 <span class="default-bg badge">v1.1</span></a></li>
+                                      <li><a href="features-header-2-dark.html">Dark - Layout 2 <span class="default-bg badge">v1.1</span></a></li>
+                                      <li><a href="features-header-3-dark.html">Dark - Layout 3 <span class="default-bg badge">v1.1</span></a></li>
+                                    </ul>
+                                  </li>
+                                  <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Transparent <span class="default-bg badge">v1.2</span></a>
+                                    <ul class="dropdown-menu">
+                                      <li><a href="features-header-transparent.html">Light Version</a></li>
+                                      <li><a href="features-header-transparent-dark.html">Dark Version</a></li>
+                                    </ul>
+                                  </li>
+                                  <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Left Side Header  <span class="default-bg badge">v1.2</span></a>
+                                    <ul class="dropdown-menu">
+                                      <li><a href="features-header-offcanvas-left.html">Light Version </a></li>
+                                      <li><a href="features-header-offcanvas-left-dark.html">Dark Version </a></li>
+                                    </ul>
+                                  </li>
+                                  <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Right Side Header <span class="default-bg badge">v1.2</span></a>
+                                    <ul class="dropdown-menu">
+                                      <li><a href="features-header-offcanvas-right.html">Light Version </a></li>
+                                      <li><a href="features-header-offcanvas-right-dark.html">Dark Version </a></li>
+                                    </ul>
+                                  </li>
+                                </ul>
+                              </li>
+                              <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Footers</a>
+                                <ul class="dropdown-menu">
+                                  <li><a href="features-footer-1.html#footer">Footer 1 (Default)</a></li>
+                                  <li><a href="features-footer-2.html#footer">Footer 2</a></li>
+                                  <li><a href="features-footer-3.html#footer">Footer 3</a></li>
+                                  <li><a href="features-footer-4.html#footer">Footer 4</a></li>
+                                </ul>
+                              </li>
+                              <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sliders <span class="default-bg badge">v1.5</span></a>
+                                <ul class="dropdown-menu">
+                                  <li><a href="features-sliders-fullwidth.html">Full Width</a></li>
+                                  <li><a href="features-sliders-fullscreen-light.html">Full Screen - Light</a></li>
+                                  <li><a href="features-sliders-fullscreen-dark.html">Full Screen - Dark</a></li>
+                                  <li><a href="features-sliders-video-background.html">Video Background</a></li>
+                                  <li><a href="features-sliders-boxedwidth.html">Boxed Width</a></li>
+                                </ul>
+                              </li>
+                              <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Login/Sign Up <span class="default-bg badge">v1.2</span></a>
+                                <ul class="dropdown-menu">
+                                  <li><a href="page-login.html">Login</a></li>
+                                  <li><a href="page-signup.html">Sign Up</a></li>
+                                  <li><a href="page-login-2.html">Login Fullscreen</a></li>
+                                  <li><a href="page-signup-2.html">Sign Up Fullscreen</a></li>
+                                </ul>
+                              </li>
+                              <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pricing tables</a>
+                                <ul class="dropdown-menu">
+                                  <li><a href="features-pricing-tables-1.html">Pricing Tables 1</a></li>
+                                  <li><a href="features-pricing-tables-2.html">Pricing Tables 2</a></li>
+                                  <li><a href="features-pricing-tables-3.html">Pricing Tables 3</a></li>
+                                </ul>
+                              </li>
+                              <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Icons</a>
+                                <ul class="dropdown-menu">
+                                  <li><a href="features-icons-fontawesome.html">Font Awesome Icons</a></li>
+                                  <li><a href="features-icons-glyphicons.html">Glyphicons Icons</a></li>
+                                </ul>
+                              </li>                             
+                              <li><a href="features-typography.html">Typography</a></li>
+                              <li><a href="features-backgrounds.html">Backgrounds</a></li>
+                              <li><a href="features-background-patterns.html">Patterns <span class="default-bg badge">v1.2</span></a></li>
+                              <li><a href="features-testimonials.html">Testimonials</a></li>
+                              <li><a href="features-grid.html">Grid System</a></li>
+                            </ul>
+                          </li>                         
+                          <!-- mega-menu start -->
+                          <li class="dropdown mega-menu">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages</a>
+                            <ul class="dropdown-menu">
+                              <li>
+                                <div class="row">
+                                  <div class="col-lg-4 col-md-3 hidden-sm">
+                                    <h4>Premium HTML5 Template</h4>
+                                    <p>IDea is perfectly suitable for corporate, business and company webpages.</p>
+                                    <img src="images/section-image-3.png" alt="IDea">
+                                  </div>
+                                  <div class="col-lg-8 col-md-9">
+                                    <h4>Pages</h4>
+                                    <div class="row">
+                                      <div class="col-sm-4">
+                                        <div class="divider"></div>
+                                        <ul class="menu">
+                                          <li><a href="page-about.html"><i class="fa fa-angle-right"></i>About Us</a></li>
+                                          <li><a href="page-about-2.html"><i class="fa fa-angle-right"></i>About Us 2</a></li>
+                                          <li><a href="page-about-3.html"><i class="fa fa-angle-right"></i>About Us 3</a></li>
+                                          <li><a href="page-about-me.html"><i class="fa fa-angle-right"></i>About Me</a></li>
+                                          <li><a href="page-team.html"><i class="fa fa-angle-right"></i>Our Team - Options</a></li>
+                                          <li><a href="page-services.html"><i class="fa fa-angle-right"></i>Services</a></li>
+                                        </ul>
+                                      </div>
+                                      <div class="col-sm-4">
+                                        <div class="divider"></div>
+                                        <ul class="menu">
+                                          <li><a href="page-contact.html"><i class="fa fa-angle-right"></i>Contact</a></li>
+                                          <li><a href="page-contact-2.html"><i class="fa fa-angle-right"></i>Contact 2</a></li>
+                                          <li><a href="page-coming-soon.html"><i class="fa fa-angle-right"></i>Coming Soon Page</a></li>
+                                          <li><a href="page-404.html"><i class="fa fa-angle-right"></i>404 error</a></li>
+                                          <li><a href="page-faq.html"><i class="fa fa-angle-right"></i>FAQ page</a></li>
+                                          <li><a href="page-affix-sidebar.html"><i class="fa fa-angle-right"></i>Sidebar - Affix Menu</a></li>
+                                        </ul>
+                                      </div>
+                                      <div class="col-sm-4">
+                                        <div class="divider"></div>
+                                        <ul class="menu">
+                                          <li><a href="page-left-sidebar.html"><i class="fa fa-angle-right"></i>Left Sidebar</a></li>
+                                          <li><a href="page-right-sidebar.html"><i class="fa fa-angle-right"></i>Right Sidebar</a></li>
+                                          <li><a href="page-two-sidebars.html"><i class="fa fa-angle-right"></i>Two Sidebars</a></li>
+                                          <li><a href="page-no-sidebar.html"><i class="fa fa-angle-right"></i>No Sidebars</a></li>
+                                          <li><a href="page-sitemap.html"><i class="fa fa-angle-right"></i>Sitemap</a></li>
+                                          <li><a href="page-invoice.html"><i class="fa fa-angle-right"></i>Invoice <span class="badge">v1.1</span></a></li>
+                                        </ul>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </li>
+                            </ul>
+                          </li>
+                          <!-- mega-menu end -->
+                          <!-- mega-menu start -->
+                          <li class="dropdown mega-menu">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Components</a>
+                            <ul class="dropdown-menu">
+                              <li>
+                                <div class="row">
+                                  <div class="col-sm-4 col-md-6">
+                                    <h4>IDea - Powerful Bootstrap Template</h4>
+                                    <p>IDea is a Super Flexible Bootstrap Template with many Features and options.</p>
+                                    <img src="images/section-image-1.png" alt="image-1">
+                                  </div>
+                                  <div class="col-sm-8 col-md-6">
+                                    <h4>Components</h4>
+                                    <div class="row">
+                                      <div class="col-sm-6">
+                                        <div class="divider"></div>
+                                        <ul class="menu">
+                                          <li><a href="components-tabs-and-pills.html"><i class="fa fa-angle-right"></i>Tabs &amp; Pills</a></li>
+                                          <li><a href="components-accordions.html"><i class="fa fa-angle-right"></i>Accordions</a></li>
+                                          <li><a href="components-social-icons.html"><i class="fa fa-angle-right"></i>Social Icons</a></li>
+                                          <li><a href="components-buttons.html"><i class="fa fa-angle-right"></i>Buttons</a></li>
+                                          <li><a href="components-forms.html"><i class="fa fa-angle-right"></i>Forms</a></li>
+                                          <li><a href="components-progress-bars.html"><i class="fa fa-angle-right"></i>Progress bars</a></li>
+                                          <li><a href="components-alerts-and-callouts.html"><i class="fa fa-angle-right"></i>Alerts &amp; Callouts</a></li>
+                                          <li><a href="components-content-sliders.html"><i class="fa fa-angle-right"></i>Content Sliders</a></li>
+                                          <li><a href="components-text-rotators.html"><i class="fa fa-angle-right"></i>Text Rotators  <span class="badge">v1.3</span></a></li>
+                                          <li><a href="components-lightbox.html"><i class="fa fa-angle-right"></i>Lightbox</a></li>
+                                        </ul>
+                                      </div>
+                                      <div class="col-sm-6">
+                                        <div class="divider"></div>
+                                        <ul class="menu">
+                                          <li><a href="components-icon-boxes.html"><i class="fa fa-angle-right"></i>Icon Boxes</a></li>
+                                          <li><a href="components-image-boxes.html"><i class="fa fa-angle-right"></i>Image Boxes</a></li>
+                                          <li><a href="components-video-and-audio.html"><i class="fa fa-angle-right"></i>Video</a></li>
+                                          <li><a href="components-modals.html"><i class="fa fa-angle-right"></i>Modals</a></li>
+                                          <li><a href="components-animations.html"><i class="fa fa-angle-right"></i>Animations</a></li>
+                                          <li><a href="components-counters.html"><i class="fa fa-angle-right"></i>Counters</a></li>
+                                          <li><a href="components-tables.html"><i class="fa fa-angle-right"></i>Tables</a></li>
+                                          <li><a href="components-charts.html"><i class="fa fa-angle-right"></i>Charts <span class="badge">v1.3</span></a></li>
+                                          <li><a href="components-announcement-default.html"><i class="fa fa-bullhorn pr-10"></i>Announcements <span class="badge">v1.5</span></a></li>
+                                        </ul>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </li>
+                            </ul>
+                          </li>
+                          <!-- mega-menu end -->
+                          <li class="dropdown">
+                            <a href="portfolio-3col.html" class="dropdown-toggle" data-toggle="dropdown">Portfolio</a>
+                            <ul class="dropdown-menu">
+                              <li class="dropdown">
+                                <a href="portfolio-3col.html" class="dropdown-toggle" data-toggle="dropdown">Portfolio - Style 1</a>
+                                <ul class="dropdown-menu">
+                                  <li><a href="portfolio-2col.html">Portfolio - 2 columns</a></li>
+                                  <li><a href="portfolio-3col.html">Portfolio - 3 columns</a></li>
+                                  <li><a href="portfolio-4col.html">Portfolio - 4 columns</a></li>
+                                  <li><a href="portfolio-sidebar.html">Portfolio - With sidebar</a></li>
+                                </ul>
+                              </li>
+                              <li class="dropdown">
+                                <a href="portfolio-3col-2.html" class="dropdown-toggle" data-toggle="dropdown">Portfolio - Style 2</a>
+                                <ul class="dropdown-menu">
+                                  <li><a href="portfolio-2col-2.html">Portfolio - 2 columns</a></li>
+                                  <li><a href="portfolio-3col-2.html">Portfolio - 3 columns</a></li>
+                                  <li><a href="portfolio-4col-2.html">Portfolio - 4 columns</a></li>
+                                  <li><a href="portfolio-sidebar-2.html">Portfolio - With sidebar</a></li>
+                                </ul>
+                              </li>
+                              <li class="dropdown">
+                                <a href="portfolio-3col-3.html" class="dropdown-toggle" data-toggle="dropdown">Portfolio - Style 3</a>
+                                <ul class="dropdown-menu">
+                                  <li><a href="portfolio-2col-3.html">Portfolio - 2 columns</a></li>
+                                  <li><a href="portfolio-3col-3.html">Portfolio - 3 columns</a></li>
+                                  <li><a href="portfolio-4col-3.html">Portfolio - 4 columns</a></li>
+                                  <li><a href="portfolio-sidebar-3.html">Portfolio - With sidebar</a></li>
+                                </ul>
+                              </li>
+                              <li class="dropdown">
+                                <a href="portfolio-list-sidebar.html" class="dropdown-toggle" data-toggle="dropdown">Portfolio - List <span class="badge">v1.3</span></a>
+                                <ul class="dropdown-menu">
+                                  <li><a href="portfolio-list-1.html">List - Large Image <span class="badge">v1.3</span></a></li>
+                                  <li><a href="portfolio-list-2.html">List - Small Image <span class="badge">v1.3</span></a></li>
+                                  <li><a href="portfolio-list-sidebar.html">List - Sidebar <span class="badge">v1.3</span></a></li>
+                                </ul>
+                              </li>
+                              <li><a href="portfolio-full.html">Portfolio - Full width</a></li>
+                              <li><a href="portfolio-item.html">Portfolio single</a></li>
+                              <li><a href="portfolio-item-2.html">Portfolio single 2</a></li>
+                              <li><a href="portfolio-item-3.html">Portfolio single 3</a></li>
+                            </ul>
+                          </li>
+                          <li class="dropdown">
+                            <a href="shop-listing-3col.html" class="dropdown-toggle" data-toggle="dropdown">Shop</a>
+                            <ul class="dropdown-menu">
+                              <li><a href="index-shop.html">Shop - Home <span class="default-bg badge">v1.2</span></a></li>
+                              <li><a href="shop-listing-3col.html">Shop - 3 Columns</a></li>
+                              <li><a href="shop-listing-4col.html">Shop - 4 Columns</a></li>
+                              <li><a href="shop-listing-sidebar.html">Shop - With Sidebar</a></li>
+                              <li><a href="shop-product.html">Product</a></li>
+                              <li><a href="shop-cart.html">Shopping Cart</a></li>
+                              <li><a href="shop-checkout.html">Checkout Page - Step 1</a></li>
+                              <li><a href="shop-checkout-payment.html">Checkout Page - Step 2</a></li>
+                              <li><a href="shop-checkout-review.html">Checkout Page - Step 3</a></li>
+                            </ul>
+                          </li>
+                          <li class="dropdown">
+                            <a href="blog-right-sidebar.html" class="dropdown-toggle" data-toggle="dropdown">Blog</a>
+                            <ul class="dropdown-menu">
+                              <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
+                              <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
+                              <li><a href="blog-no-sidebar.html">Blog No Sidebars</a></li>
+                              <li><a href="blog-masonry.html">Blog Masonry</a></li>
+                              <li><a href="blog-masonry-sidebar.html">Blog Masonry - Sidebar</a></li>
+                              <li><a href="blog-timeline.html">Blog Timeline</a></li>
+                              <li><a href="blog-post.html">Blog post</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+
+                    </div>
+                  </nav>
+                  <!-- navbar end -->
+
+                </div>
+                <!-- main-navigation end -->
+
+              </div>
+              <!-- header-right end -->
+
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- header end -->
+      <!-- banner start -->
+      <!-- ================ -->
+      <div class="banner">
+
+        <!-- slideshow start -->
+        <!-- ================ -->
+        <div class="slideshow">
+
+          <!-- slider revolution start -->
+          <!-- ================ -->
+          <div class="slider-revolution-5-container">
+            <div id="slider-banner-fullwidth" class="slider-banner-fullwidth rev_slider" data-version="5.0">
+              <ul class="slides">
+                <!-- slide 1 start -->
+                <li data-transition="random" data-slotamount="default" data-masterspeed="default" data-title="Premium HTML5 template">
+
+                <!-- main image -->
+                <img src="images/slider-1-slide-1.jpg" alt="slidebg1" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg">
+
+                <!-- LAYER NR. 1 -->
+                <div class="tp-caption default_bg large tp-resizeme"
+                  data-x="0"
+                  data-y="70"
+                  data-start="1200"
+                  data-transform_idle="o:1;"
+                  data-transform_in="x:[20%];sX:1;sY:1;o:0;s:600;e:Power4.linear;"
+                  data-transform_out="x:[100%];s:1000;e:Power2.easeInOut;">Portal locuri de munca
+                </div>
+
+                <!-- LAYER NR. 2 -->
+                <div class="tp-caption dark_gray_bg medium tp-resizeme"
+                  data-x="0"
+                  data-y="170"
+                  data-start="1600"
+                  data-transform_idle="o:1;"
+                  data-transform_in="x:[-100%];sX:1;sY:1;o:0;s:600;e:Power4.linear;"
+                  data-transform_out="x:[-100%];s:1000;e:Power2.easeInOut;"><i class="fa fa-check"></i>
+                </div>
+
+                <!-- LAYER NR. 3 -->
+                <div class="tp-caption light_gray_bg medium tp-resizeme"
+                  data-x="50"
+                  data-y="170"
+                  data-start="1600"
+                  data-transform_idle="o:1;"
+                  data-transform_in="y:[100%];sX:1;sY:1;o:0;s:600;e:Power4.linear;"
+                  data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;">Angajatori
+                </div>
+
+                <!-- LAYER NR. 4 -->
+                <div class="tp-caption dark_gray_bg medium tp-resizeme"
+                  data-x="0"
+                  data-y="220"
+                  data-start="1800"
+                  data-transform_idle="o:1;"
+                  data-transform_in="x:[-100%];sX:1;sY:1;o:0;s:600;e:Power4.linear;"
+                  data-transform_out="x:[-100%];s:1000;e:Power2.easeInOut;"><i class="fa fa-check"></i>
+                </div>
+
+                <!-- LAYER NR. 5 -->
+                <div class="tp-caption light_gray_bg medium tp-resizeme"
+                  data-x="50"
+                  data-y="220"
+                  data-start="1800"
+                  data-transform_idle="o:1;"
+                  data-transform_in="y:[100%];sX:1;sY:1;o:0;s:600;e:Power4.linear;"
+                  data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;">Candidati
+                </div>
+
+                <!-- LAYER NR. 6 -->
+                <div class="tp-caption dark_gray_bg medium tp-resizeme"
+                  data-x="0"
+                  data-y="270"
+                  data-start="2000"
+                  data-transform_idle="o:1;"
+                  data-transform_in="x:[-100%];sX:1;sY:1;o:0;s:600;e:Power4.linear;"
+                  data-transform_out="x:[-100%];s:1000;e:Power2.easeInOut;"><i class="fa fa-check"></i>
+                </div>
+
+                <!-- LAYER NR. 7 -->
+                <div class="tp-caption light_gray_bg medium tp-resizeme"
+                  data-x="50"
+                  data-y="270"
+                  data-start="2000"
+                  data-transform_idle="o:1;"
+                  data-transform_in="y:[100%];sX:1;sY:1;o:0;s:600;e:Power4.linear;"
+                  data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;">Lista locuri de munca
+                </div>
+
+                <!-- LAYER NR. 8 -->
+                <div class="tp-caption dark_gray_bg medium tp-resizeme"
+                  data-x="0"
+                  data-y="320"
+                  data-start="2200"
+                  data-transform_idle="o:1;"
+                  data-transform_in="x:[-100%];sX:1;sY:1;o:0;s:600;e:Power4.linear;"
+                  data-transform_out="x:[-100%];s:1000;e:Power2.easeInOut;"><i class="fa fa-check"></i>
+                </div>
+
+                <!-- LAYER NR. 9 -->
+                <div class="tp-caption light_gray_bg medium tp-resizeme"
+                  data-x="50"
+                  data-y="320"
+                  data-start="2200"
+                  data-transform_idle="o:1;"
+                  data-transform_in="y:[100%];sX:1;sY:1;o:0;s:600;e:Power4.linear;"
+                  data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;">Tehnici cautare
+                </div>
+
+                <!-- LAYER NR. 10 -->
+                <div class="tp-caption dark_gray_bg medium tp-resizeme"
+                  data-x="0"
+                  data-y="370"
+                  data-start="2400"
+                  data-transform_idle="o:1;"
+                  data-transform_in="y:[100%];sX:1;sY:1;o:0;s:600;e:Power4.linear;"
+                  data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;">Consulta lista de locuri de munca
+                </div>
+
+                <!-- LAYER NR. 11 -->
+                <div class="tp-caption tp-resizeme"
+                  data-x="right"
+                  data-y="center"
+                  data-start="2700"
+                  data-transform_idle="o:1;"
+                  data-transform_in="x:[20%];sX:1;sY:1;o:0;s:600;e:Power4.linear;"
+                  data-transform_out="x:[100%];s:1000;e:Power2.easeInOut;"><img src="images/slider-1-layer-1.png" alt="">
+                </div>
+
+                </li>
+                <!-- slide 1 end -->
+
+                <!-- slide 2 start -->
+                <li data-transition="random" data-slotamount="7" data-masterspeed="500" data-saveperformance="on" data-title="Powerful Bootstrap Template">
+
+                <!-- main image -->
+                <img src="images/slider-1-slide-1.jpg"  alt="slidebg1" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg">
+
+                <!-- LAYER NR. 1 -->
+                <div class="tp-caption white_bg large tp-resizeme"
+                  data-x="0"
+                  data-y="70"
+                  data-start="1200"
+                  data-transform_idle="o:1;"
+                  data-transform_in="x:[20%];sX:1;sY:1;o:0;s:600;e:Power4.linear;"
+                  data-transform_out="x:[100%];s:1000;e:Power2.easeInOut;">Proiectul ACTOR
+                </div>
+
+                <!-- LAYER NR. 2 -->
+                <div class="tp-caption default_bg medium tp-resizeme"
+                  data-x="0"
+                  data-y="170"
+                  data-start="1600"
+                  data-transform_idle="o:1;"
+                  data-transform_in="x:[-100%];sX:1;sY:1;o:0;s:600;e:Power4.linear;"
+                  data-transform_out="x:[-100%];s:1000;e:Power2.easeInOut;"><i class="fa fa-check"></i>
+                </div>
+
+                <!-- LAYER NR. 3 -->
+                <div class="tp-caption white_bg medium tp-resizeme"
+                  data-x="50"
+                  data-y="170"
+                  data-start="1600"
+                  data-transform_idle="o:1;"
+                  data-transform_in="y:[100%];sX:1;sY:1;o:0;s:600;e:Power4.linear;"
+                  data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;">Acces
+                </div>
+
+                <!-- LAYER NR. 4 -->
+                <div class="tp-caption default_bg medium tp-resizeme"
+                  data-x="0"
+                  data-y="220"
+                  data-start="1800"
+                  data-transform_idle="o:1;"
+                  data-transform_in="x:[-100%];sX:1;sY:1;o:0;s:600;e:Power4.linear;"
+                  data-transform_out="x:[-100%];s:1000;e:Power2.easeInOut;"><i class="fa fa-check"></i>
+                </div>
+
+                <!-- LAYER NR. 5 -->
+                <div class="tp-caption white_bg medium tp-resizeme"
+                  data-x="50"
+                  data-y="220"
+                  data-start="1800"
+                  data-transform_idle="o:1;"
+                  data-transform_in="y:[100%];sX:1;sY:1;o:0;s:600;e:Power4.linear;"
+                  data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;">Crescut
+                </div>
+
+                <!-- LAYER NR. 6 -->
+                <div class="tp-caption default_bg medium tp-resizeme"
+                  data-x="0"
+                  data-y="270"
+                  data-start="2000"
+                  data-transform_idle="o:1;"
+                  data-transform_in="x:[-100%];sX:1;sY:1;o:0;s:600;e:Power4.linear;"
+                  data-transform_out="x:[-100%];s:1000;e:Power2.easeInOut;"><i class="fa fa-check"></i>
+                </div>
+
+                <!-- LAYER NR. 7 -->
+                <div class="tp-caption white_bg medium tp-resizeme"
+                  data-x="50"
+                  data-y="270"
+                  data-start="2000"
+                  data-transform_idle="o:1;"
+                  data-transform_in="y:[100%];sX:1;sY:1;o:0;s:600;e:Power4.linear;"
+                  data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;">pentru Tineri
+                </div>
+
+                <!-- LAYER NR. 8 -->
+                <div class="tp-caption default_bg medium tp-resizeme"
+                  data-x="0"
+                  data-y="320"
+                  data-start="2200"
+                  data-transform_idle="o:1;"
+                  data-transform_in="x:[-100%];sX:1;sY:1;o:0;s:600;e:Power4.linear;"
+                  data-transform_out="x:[-100%];s:1000;e:Power2.easeInOut;"><i class="fa fa-check"></i>
+                </div>
+
+                <!-- LAYER NR. 9 -->
+                <div class="tp-caption white_bg medium tp-resizeme"
+                  data-x="50"
+                  data-y="320"
+                  data-start="2200"
+                  data-transform_idle="o:1;"
+                  data-transform_in="y:[100%];sX:1;sY:1;o:0;s:600;e:Power4.linear;"
+                  data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;">la Ocupare
+                </div>
+
+                <!-- LAYER NR. 10 -->
+                <div class="tp-caption default_bg medium tp-resizeme"
+                  data-x="0"
+                  data-y="370"
+                  data-start="2400"
+                  data-transform_idle="o:1;"
+                  data-transform_in="y:[100%];sX:1;sY:1;o:0;s:600;e:Power4.linear;"
+                  data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;">-- Reusita
+                </div>
+
+                <!-- LAYER NR. 11 -->
+                <div class="tp-caption tp-resizeme"
+                  data-x="right"
+                  data-y="center"
+                  data-start="2700"
+                  data-transform_idle="o:1;"
+                  data-transform_in="x:[20%];sX:1;sY:1;o:0;s:600;e:Power4.linear;"
+                  data-transform_out="x:[100%];s:1000;e:Power2.easeInOut;"><img src="images/slider-1-layer-2.png" alt="">
+                </div>
+
+                </li>
+                <!-- slide 2 end -->
+
+                <!-- slide 3 start -->
+                <li data-transition="random" data-slotamount="7" data-masterspeed="500" data-saveperformance="on" data-title="Powerful Bootstrap Template">
+
+                <!-- main image -->
+                <img src="images/slider-1-slide-3.jpg"  alt="kenburns" data-bgposition="left center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+
+                <!-- LAYER NR. 1 -->
+                <div class="tp-caption white_bg large tp-resizeme"
+                  data-x="0"
+                  data-y="70"
+                  data-start="1200"
+                  data-transform_idle="o:1;"
+                  data-transform_in="x:[20%];sX:1;sY:1;o:0;s:600;e:Power4.linear;"
+                  data-transform_out="x:[100%];s:1000;e:Power2.easeInOut;">Clean &amp; Unique Design
+                </div>
+
+                <!-- LAYER NR. 2 -->
+                <div class="tp-caption dark_gray_bg medium tp-resizeme"
+                  data-x="0"
+                  data-y="170"
+                  data-start="1600"
+                  data-transform_idle="o:1;"
+                  data-transform_in="x:[-100%];sX:1;sY:1;o:0;s:600;e:Power4.linear;"
+                  data-transform_out="x:[-100%];s:1000;e:Power2.easeInOut;"><i class="fa fa-check"></i>
+                </div>
+
+                <!-- LAYER NR. 3 -->
+                <div class="tp-caption white_bg medium tp-resizeme"
+                  data-x="50"
+                  data-y="170"
+                  data-start="1600"
+                  data-transform_idle="o:1;"
+                  data-transform_in="y:[100%];sX:1;sY:1;o:0;s:600;e:Power4.linear;"
+                  data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;">Duis aute irure dol
+                </div>
+
+                <!-- LAYER NR. 4 -->
+                <div class="tp-caption dark_gray_bg medium tp-resizeme"
+                  data-x="0"
+                  data-y="220"
+                  data-start="1800"
+                  data-transform_idle="o:1;"
+                  data-transform_in="x:[-100%];sX:1;sY:1;o:0;s:600;e:Power4.linear;"
+                  data-transform_out="x:[-100%];s:1000;e:Power2.easeInOut;"><i class="fa fa-check"></i>
+                </div>
+
+                <!-- LAYER NR. 5 -->
+                <div class="tp-caption white_bg medium tp-resizeme"
+                  data-x="50"
+                  data-y="220"
+                  data-start="1800"
+                  data-transform_idle="o:1;"
+                  data-transform_in="y:[100%];sX:1;sY:1;o:0;s:600;e:Power4.linear;"
+                  data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;">Crystal Clean Design
+                </div>
+
+                <!-- LAYER NR. 6 -->
+                <div class="tp-caption dark_gray_bg medium tp-resizeme"
+                  data-x="0"
+                  data-y="270"
+                  data-start="2000"
+                  data-transform_idle="o:1;"
+                  data-transform_in="x:[-100%];sX:1;sY:1;o:0;s:600;e:Power4.linear;"
+                  data-transform_out="x:[-100%];s:1000;e:Power2.easeInOut;"><i class="fa fa-check"></i>
+                </div>
+
+                <!-- LAYER NR. 7 -->
+                <div class="tp-caption white_bg medium tp-resizeme"
+                  data-x="50"
+                  data-y="270"
+                  data-start="2000"
+                  data-transform_idle="o:1;"
+                  data-transform_in="y:[100%];sX:1;sY:1;o:0;s:600;e:Power4.linear;"
+                  data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;">Crossbrowser Compatible
+                </div>
+
+                <!-- LAYER NR. 8 -->
+                <div class="tp-caption dark_gray_bg medium tp-resizeme"
+                  data-x="0"
+                  data-y="320"
+                  data-start="2200"
+                  data-transform_idle="o:1;"
+                  data-transform_in="x:[-100%];sX:1;sY:1;o:0;s:600;e:Power4.linear;"
+                  data-transform_out="x:[-100%];s:1000;e:Power2.easeInOut;"><i class="fa fa-check"></i>
+                </div>
+
+                <!-- LAYER NR. 9 -->
+                <div class="tp-caption white_bg medium tp-resizeme"
+                  data-x="50"
+                  data-y="320"
+                  data-start="2200"
+                  data-transform_idle="o:1;"
+                  data-transform_in="y:[100%];sX:1;sY:1;o:0;s:600;e:Power4.linear;"
+                  data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;">Latest Technologies Used
+                </div>
+
+                <!-- LAYER NR. 10 -->
+                <div class="tp-caption dark_gray_bg medium tp-resizeme"
+                  data-x="0"
+                  data-y="370"
+                  data-start="2400"
+                  data-transform_idle="o:1;"
+                  data-transform_in="y:[100%];sX:1;sY:1;o:0;s:600;e:Power4.linear;"
+                  data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;">Don't miss out!
+                </div>
+
+                </li>
+                <!-- slide 3 end -->
+
+              </ul>
+              <div class="tp-bannertimer tp-bottom"></div>
+            </div>
+          </div>
+          <!-- slider revolution end -->
+
+        </div>
+        <!-- slideshow end -->
+
+      </div>
+      <!-- banner end -->
     <noscript>
       You need to enable JavaScript to run this app.
     </noscript>
@@ -77,6 +880,38 @@
 
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    --><!-- Jquery and Bootstap core js files -->
+    <script src="%PUBLIC_URL%/plugins/jquery.min.js"></script>
+    <script src="%PUBLIC_URL%/bootstrap/js/bootstrap.js"></script>
+
+    <!-- jQuery REVOLUTION Slider  -->
+    <script src="%PUBLIC_URL%/plugins/rs-plugin-5/js/jquery.themepunch.tools.min.js"></script>
+    <script src="%PUBLIC_URL%/plugins/rs-plugin-5/js/jquery.themepunch.revolution.min.js"></script>
+
+    <!-- Isotope javascript -->
+    <script src="%PUBLIC_URL%/plugins/isotope/imagesloaded.pkgd.min.js"></script>
+    <script src="%PUBLIC_URL%/plugins/isotope/isotope.pkgd.min.js"></script>
+
+    <!-- Owl carousel javascript -->
+    <script src="%PUBLIC_URL%/plugins/owl-carousel/owl.carousel.js"></script>
+
+    <!-- Magnific Popup javascript -->
+    <script src="%PUBLIC_URL%/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Appear javascript -->
+    <script src="%PUBLIC_URL%/plugins/appear/jquery.appear.js"></script>
+
+    <!-- Count To javascript -->
+    <script src="%PUBLIC_URL%/plugins/countTo/jquery.countTo.js"></script>
+
+    <!-- Initialization of Plugins -->
+    <script src="%PUBLIC_URL%/js/template.js"></script>
+
+    <!-- Custom Scripts -->
+    <script src="js/custom.js"></script>
+    <script type="text/javascript" src="%PUBLIC_URL%/plugins/rs-plugin-5/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script type="text/javascript" src="%PUBLIC_URL%/plugins/rs-plugin-5/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script type="text/javascript" src="%PUBLIC_URL%/plugins/rs-plugin-5/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script type="text/javascript" src="%PUBLIC_URL%/plugins/rs-plugin-5/js/extensions/revolution.extension.navigation.min.js"></script>
   </body>
 </html>
