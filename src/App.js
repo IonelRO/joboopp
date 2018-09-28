@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Header from './header.js'
+import Lmv from './lmv.js'
 
 
 import './App.css';
@@ -32,7 +32,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-       
+       <Lmv/>
         
          {this.state.super.map(lmv =>
        
