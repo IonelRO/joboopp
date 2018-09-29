@@ -9,7 +9,7 @@ class App extends Component {
     super(props);
     this.state = { items: [] };
     this.state = { super: [
-    {id:'1', judet: 'gorj', luna: 'iulie', img: 'images/portfolio-1.jpg', angajator: 'SC TEHNOINSTAL SRL',
+    {id:'1', judet: 'gorj', luna: 'iulie', img: 'images/tehnoinstal.png', angajator: 'SC TEHNOINSTAL SRL',
      adresa: 'Str.1 Decembrie 1918,Tg-Jiu,Gor', locDeMuncaVacant: 'MECANIC UTILAJ',
      conditiiDeOcupare: 'LICEU', nrLocuri: '1', telefon:  '0786409053', email: 'scopi@apsg.eu'
       },
