@@ -30,14 +30,18 @@ class Lmv extends Component {
 									<li><a href="" data-filter=".gorj">Gorj</a></li>
 									<li><a href="" data-filter=".dolj">Dolj</a></li>
 									<li><a href="" data-filter=".iulie">Iulie 2018</a></li>
+									<li><a href="" data-filter=".august">August 2018</a></li>
 								</ul>
+
 							</div>
 							
 							<div className="isotope-container row grid-space-20">
-								{locuri.map(lmvs =>
-								
-
-				         		<div key={lmvs.id} className={`${lmvs.judet} ${lmvs.luna} col-sm-4 isotope-item margin-bottom-clear`}>
+								{locuri
+						        .filter(function(lmvs, index) {
+						          return lmvs.judet !== "";
+						        })
+						        .map(lmvs =>
+								<div key={lmvs.id} className={`${lmvs.judet} ${lmvs.luna} col-sm-4 isotope-item margin-bottom-clear`}>
 				                  <div className="box-style-1 white-bg">
 				                    <div className="overlay-container">
 				                      <img src={lmvs.img} alt=""/>
@@ -48,7 +52,7 @@ class Lmv extends Component {
 				                    </div>
 				                    <h3><a href="portfolio-item.html">{lmvs.angajator}</a></h3>
 				                    <p>{lmvs.locDeMuncaVacant}</p>
-				                    <a href="portfolio-item.html" className="btn btn-default">Read More</a>
+				                    <a href="portfolio-item.html" className="btn btn-default">Detalii</a>
 				                  </div>
 				                </div>
        						 	)} 
