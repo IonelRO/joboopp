@@ -145,6 +145,106 @@ class App extends Component {
       adresa: 'COM. FRANCESTI 11, Loc. FRÂNCEŞTI, Jud. VÂLCEA LOC MUNCA TG-JIU', locDeMuncaVacant: 'MUNCITOR NECALIFICAT IN AGRICULTURA',
       conditiiDeOcupare: 'GIMNAZIU', nrLocuri: '50', telefon:  '0725352442', email: 'scopi@apsg.eu'
       },
+      {id:'34', judet: 'gorj', luna: 'august', img: 'images/angajari.jpg', angajator: 'RZW TRADE 11',
+      adresa: 'Strada GĂRII 620, Loc. TISMANA, Jud. GORJ,LOC MUNCA IN SILVICULTURA', locDeMuncaVacant: 'MUNCITOR NECALIFICAT IN SILVICULTURA',
+      conditiiDeOcupare: 'GIMNAZIU', nrLocuri: '3', telefon:  '0757295918', email: 'scopi@apsg.eu'
+      },
+      {id:'35', judet: 'gorj', luna: 'august', img: 'images/angajari.jpg', angajator: 'ILVI EXIM SRL',
+      adresa: 'COMPLEX COMERCIAL PARTER  Loc. BUMBEŞTI-JIU, Jud. GORJ', locDeMuncaVacant: 'PATISER',
+      conditiiDeOcupare: 'LICEU', nrLocuri: '1', telefon:  '0723153235', email: 'scopi@apsg.eu'
+      },
+      {id:'36', judet: 'gorj', luna: 'august', img: 'images/angajari.jpg', angajator: 'PANAN TOUR SRL',
+      adresa: 'STR. SIRETULUI , Bl. 17, Sc. 1, Et. 5, Ap. 18, Loc. TÂRGU JIU, Jud. GORJ', locDeMuncaVacant: 'PIZZAR',
+      conditiiDeOcupare: 'LICEU', nrLocuri: '1', telefon:  '0722281990', email: 'scopi@apsg.eu'
+      },
+      {id:'37', judet: 'gorj', luna: 'august', img: 'images/angajari.jpg', angajator: 'ROEXIM COM SRL',
+      adresa: 'STR. 14 OCTOMBRIE Loc. TÂRGU JIU, Jud. GORJ', locDeMuncaVacant: 'REVIZOR GESTIUNE',
+      conditiiDeOcupare: 'Studii superioare', nrLocuri: '1', telefon:  '0253237740', email: 'scopi@apsg.eu'
+      },
+      {id:'38', judet: 'gorj', luna: 'august', img: 'images/angajari.jpg', angajator: 'MOVEOS SRL',
+      adresa: 'Strada Lunga 160, Bl. BIROU 2, Loc. BRAŞOV, Jud. BRAŞOV,LOC MUNCA ROVINARI', locDeMuncaVacant: 'SEF FORMATIE ÎN INDUSTRIA DE MASINI SI ECHIPAMENTE',
+      conditiiDeOcupare: 'LICEU', nrLocuri: '1', telefon:  '0722281990', email: 'scopi@apsg.eu'
+      },
+      {id:'39', judet: 'gorj', luna: 'august', img: 'images/angajari.jpg', angajator: 'ROMADICOM SRL',
+      adresa: 'Strada 1 Decembrie 1918 41, Loc. TÂRGU JIU, Jud. GORJ', locDeMuncaVacant: 'SPALATOR VEHICULE',
+      conditiiDeOcupare: 'Scoala profesionala', nrLocuri: '1', telefon:  '0763629896', email: 'scopi@apsg.eu'
+      },
+      {id:'40', judet: 'gorj', luna: 'august', img: 'images/angajari.jpg', angajator: 'KONCORD TRANS SRL',
+      adresa: 'Aleea Macului 5,  Loc. TÂRGU JIU, Jud. GORJ', locDeMuncaVacant: 'TAMPLAR UNIVERSAL',
+      conditiiDeOcupare: 'Scoala profesionala', nrLocuri: '5', telefon:  '0253215935', email: 'scopi@apsg.eu'
+      },
+      {id:'41', judet: 'gorj', luna: 'august', img: 'images/angajari.jpg', angajator: 'TREFO SRL',
+      adresa: 'Strada ENERGETICIANULUI 1,Loc. ROVINARI, Jud. GORJ', locDeMuncaVacant: 'SOFER AUTOCAMION/MASINA DE MARE TONAJ',
+      conditiiDeOcupare: 'LICEU', nrLocuri: '1', telefon:  '0253372015', email: 'scopi@apsg.eu'
+      },
+      {id:'42', judet: 'gorj', luna: 'august', img: 'images/angajari.jpg', angajator: 'IRINA SERV SRL',
+      adresa: 'Sat TURCINESTI Nr.368', locDeMuncaVacant: 'LUCRATOR PENSIUNE TURISTICA',
+      conditiiDeOcupare: 'LICEU', nrLocuri: '1', telefon:  '0721239539', email: 'scopi@apsg.eu'
+      },
+      {id:'43', judet: 'gorj', luna: 'august', img: 'images/angajari.jpg', angajator: 'EURODACOS SRL',
+      adresa: 'STR. TERMOCENTRALEI  Loc. TÂRGU JIU, Jud. GORJ', locDeMuncaVacant: 'SOFER AUTOCAMION/MASINA DE MARE TONAJ',
+      conditiiDeOcupare: 'LICEU', nrLocuri: '1', telefon:  '0728556545', email: 'scopi@apsg.eu'
+      },
+      {id:'44', judet: 'gorj', luna: 'august', img: 'images/angajari.jpg', angajator: 'HEVATEX COM SRL',
+      adresa: 'STR. SLT. GHEORGHE BARBOI , Bl. 2, Sc. 2, Et. P, Loc. TÂRGU JIU, Jud. GORJ', locDeMuncaVacant: 'ZIDAR ROSAR-TENCUITOR',
+      conditiiDeOcupare: 'GIMNAZIU', nrLocuri: '5', telefon:  '0253371897', email: 'scopi@apsg.eu'
+      },
+      {id:'45', judet: 'gorj', luna: 'august', img: 'images/angajari.jpg', angajator: 'VANESSA TRANS SRL',
+      adresa: 'COM. BĂLEŞTI 202, Loc. BĂLEŞTI, Jud. GORJ', locDeMuncaVacant: 'SOFER DE AUTOTURISME SI CAMIONETE',
+      conditiiDeOcupare: 'LICEU', nrLocuri: '2', telefon:  '0761299579', email: 'scopi@apsg.eu'
+      },
+      {id:'46', judet: 'gorj', luna: 'august', img: 'images/angajari.jpg', angajator: 'GTPD SRL',
+      adresa: 'STR. 23 AUGUST 170, Loc. TÂRGU JIU, Jud. GORJ', locDeMuncaVacant: 'AGENT COMERCIAL',
+      conditiiDeOcupare: 'LICEU', nrLocuri: '1', telefon:  '0253227920', email: 'scopi@apsg.eu'
+      },
+      {id:'47', judet: 'gorj', luna: 'august', img: 'images/angajari.jpg', angajator: 'PAMOHA VITENDO',
+      adresa: 'Str.1 DECEMBRIE 1918,Nr.57,Bl.7,Sc.1,Ap.4,TG-JIU,Jud.GORJ', locDeMuncaVacant: 'OPERATOR INTRODUCERE SI VALIDARE DATE',
+      conditiiDeOcupare: 'LICEU', nrLocuri: '1', telefon:  '0786409052', email: 'scopi@apsg.eu'
+      },
+      {id:'48', judet: 'gorj', luna: 'august', img: 'images/angajari.jpg', angajator: 'SC AMBASADOR ELITE SRL',
+      adresa: 'Str.SIRETULUI ,TG-JIU,Nr.15,Jud GORJ', locDeMuncaVacant: 'OSPATAR',
+      conditiiDeOcupare: 'LICEU', nrLocuri: '2', telefon:  '0744261629', email: 'scopi@apsg.eu'
+      },
+      {id:'49', judet: 'gorj', luna: 'august', img: 'images/angajari.jpg', angajator: 'SC AMBASADOR ELITE SRL',
+      adresa: 'Str.SIRETULUI ,TG-JIU,Nr.15,Jud GORJ', locDeMuncaVacant: 'BARMAN',
+      conditiiDeOcupare: 'LICEU', nrLocuri: '2', telefon:  '0744261629', email: 'scopi@apsg.eu'
+      },
+      {id:'50', judet: 'gorj', luna: 'august', img: 'images/angajari.jpg', angajator: 'IRINA SERV SRL',
+      adresa: 'Sat TURCINESTI Nr.368', locDeMuncaVacant: 'CAMERISTA',
+      conditiiDeOcupare: 'LICEU', nrLocuri: '1', telefon:  '0721239539', email: 'scopi@apsg.eu'
+      },
+      {id:'51', judet: 'gorj', luna: 'august', img: 'images/angajari.jpg', angajator: 'VEL PITAR SA',
+      adresa: 'Strada Emil Racoviţă 3-5 SECTORUL 4, BUCUREŞTI,LOC MUNCA TG-JIU', locDeMuncaVacant: 'AMBALATOR MANUAL',
+      conditiiDeOcupare: 'LICEU', nrLocuri: '1', telefon:  '0253213420', email: 'scopi@apsg.eu'
+      },
+      {id:'52', judet: 'gorj', luna: 'august', img: 'images/angajari.jpg', angajator: 'PROVET PHARM SRL',
+      adresa: 'STR. 23 AUGUST 170, Loc. TÂRGU JIU, Jud. GORJ', locDeMuncaVacant: 'MEDIC VETERINAR',
+      conditiiDeOcupare: 'Studii superioare', nrLocuri: '1', telefon:  '0727058134', email: 'scopi@apsg.eu'
+      },
+      {id:'53', judet: 'gorj', luna: 'august', img: 'images/angajari.jpg', angajator: 'EUPHORIC TRIP&TRAVEL',
+      adresa: 'CALEA BUCURESTI,TG-JIU, NR.64G, CAM 3', locDeMuncaVacant: 'AGENT SERVICII CLIENTI',
+      conditiiDeOcupare: 'Studii medii', nrLocuri: '1', telefon:  '0353414211', email: 'scopi@apsg.eu'
+      },
+      {id:'54', judet: 'dolj', luna: 'august', img: 'images/angajari.jpg', angajator: 'Truck Service &Parts Srl',
+      adresa: 'Str. Drum Industriilor 70-72 Craiova, Dolj', locDeMuncaVacant: 'Mecanic Auto',
+      conditiiDeOcupare: 'LICEU', nrLocuri: '1', telefon:  '0723666919', email: 'scopi@apsg.eu'
+      },
+      {id:'55', judet: 'dorj', luna: 'august', img: 'images/angajari.jpg', angajator: 'SC Rigconstruct SRL',
+      adresa: 'Str. Luceafarului 3 Craiova, Dolj', locDeMuncaVacant: 'ZIDAR',
+      conditiiDeOcupare: 'Studii medii', nrLocuri: '2', telefon:  '0744605364', email: 'scopi@apsg.eu'
+      },
+      {id:'56', judet: 'dolj', luna: 'august', img: 'images/angajari.jpg', angajator: 'SC Mira Construct Srl',
+      adresa: 'Str. Madona Dudu 41 Craiova, Dolj', locDeMuncaVacant: 'Mecanic Utilaje Terestiere',
+      conditiiDeOcupare: 'LICEU', nrLocuri: '1', telefon:  '0730033778', email: 'scopi@apsg.eu'
+      },
+      {id:'56', judet: 'dolj', luna: 'august', img: 'images/angajari.jpg', angajator: 'Rodali Cargo Srl',
+      adresa: 'Str. Principala nr. 545, Giubega, Dolj', locDeMuncaVacant: 'Sofer',
+      conditiiDeOcupare: 'LICEU', nrLocuri: '10', telefon:  '0730033777', email: 'scopi@apsg.eu'
+      },
+      {id:'57', judet: 'dolj', luna: 'august', img: 'images/angajari.jpg', angajator: 'SC Rigconstruct SRL',
+      adresa: 'Str. Luceafarului 3 Craiova, Dolj', locDeMuncaVacant: 'FINISOR',
+      conditiiDeOcupare: 'Studii medii', nrLocuri: '2', telefon:  '0744605364', email: 'scopi@apsg.eu'
+      },
     ] };
   }
 
