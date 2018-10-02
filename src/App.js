@@ -2,12 +2,6 @@ import React, { Component } from 'react';
 import Lmv from './lmv.js';
 import Locmunca from './locmunca.js';
 import { Route  } from 'react-router-dom';
-import { 
-    Stitch,
-    RemoteMongoClient,
-    AnonymousCredential
-} from "mongodb-stitch-browser-sdk";
-
 import './App.css';
 
 class App extends Component {
