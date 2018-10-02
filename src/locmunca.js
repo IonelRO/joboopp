@@ -1,24 +1,12 @@
-
 import React, { Component } from 'react';
 import PropTypes from 'prop-types'
-class Lmv extends Component {
+class Locmunca extends Component {
  static propTypes = {
-    locuri: PropTypes.array.isRequired 
- }
- constructor(props) {
-  super(props);
-  this.onLocClick = this.onLocClick.bind(this);
+    select: PropTypes.array.isRequired
   
-	}
-  onLocClick() {
-    this.setState({
-      locselectat: this.state.locuri
-      });
-    console.log('Click happened');
-  }; 
-  
- render() {
- 	const {locuri} = this.props
+  }
+  render() {
+ 	const {select} = this.props
  	
     return (
 
@@ -31,26 +19,10 @@ class Lmv extends Component {
 
 					<div className="container">
 						<div className="row">
-							<div className="col-md-12">
-								<h1 className="text-center title">Ultimele locuri de munca adaugate</h1>
-								<div className="separator"></div>
-								
-							<div className="filters margin-bottom-clear">
-								<ul className="nav nav-pills">
-									<li className="active"><a href="" data-filter="*">Toate</a></li>
-									<li><a href="" data-filter=".gorj">Gorj</a></li>
-									<li><a href="" data-filter=".dolj">Dolj</a></li>
-									<li><a href="" data-filter=".iulie">Iulie 2018</a></li>
-									<li><a href="" data-filter=".august">August 2018</a></li>
-								</ul>
-
-							</div>
+							<div className="col-md-12">							
 							
 							<div className="isotope-container row grid-space-20">
-								{locuri
-						        .filter(function(lmvs, index) {
-						          return lmvs.judet !== "";
-						        })
+								{select
 						        .map(lmvs =>
 								<div key={lmvs.id} className={`${lmvs.judet} ${lmvs.luna} col-sm-4 isotope-item margin-bottom-clear`}>
 				                  <div className="box-style-1 white-bg">
@@ -63,12 +35,20 @@ class Lmv extends Component {
 				                    </div>
 				                    <h3><a href="portfolio-item.html">{lmvs.angajator}</a></h3>
 				                    <p>{lmvs.locDeMuncaVacant}</p>
-				                    <a onClick={this.onLocClick} href="/locvacant"  className="btn btn-default">Detalii</a>
+				                    <a href="portfolio-item.html" className="btn btn-default">Detalii</a>
 				                  </div>
 				                </div>
        						 	)} 
 								</div>
-			
+
+
+								
+
+								
+								
+							
+							
+								
 							</div>
 						</div>
 					</div>
@@ -79,4 +59,4 @@ class Lmv extends Component {
 			
 		)} 
 }
-    export default Lmv;
+    export default Locmunca;

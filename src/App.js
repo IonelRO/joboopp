@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import Lmv from './lmv.js'
+import Lmv from './lmv.js';
+import Locmunca from './locmunca.js';
+import { Route  } from 'react-router-dom';
 import { 
     Stitch,
     RemoteMongoClient,
@@ -11,8 +13,10 @@ import './App.css';
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state = { items: [] };
-    this.state = { super: [
+    
+    this.state = { 
+    locselectat: [],  
+    super: [
     {id:'1', judet: 'gorj', luna: 'iulie', img: 'images/tehnoinstal.jpg', angajator: 'SC TEHNOINSTAL SRL',
      adresa: 'Str.1 Decembrie 1918,Tg-Jiu,Gor', locDeMuncaVacant: 'MECANIC UTILAJ',
      conditiiDeOcupare: 'LICEU', nrLocuri: '1', telefon:  '0786409053', email: 'scopi@apsg.eu'
@@ -247,8 +251,8 @@ class App extends Component {
       },
     ] };
   }
-
- 
+   
+  
   render() {
 const client = Stitch.initializeDefaultAppClient('talentati-rtvdi');
 
@@ -267,9 +271,15 @@ client.auth.loginWithCredential(new AnonymousCredential()).then(user =>
       return (
       
       <div className="App">
-       <Lmv
-       locuri={this.state.super}
-       />
+      <Route exact path="/" render={() => (
+          <Lmv
+          locuri={this.state.super}/>
+        )} />
+        <Route path="/locvacant" render={() => (
+          <Locmunca
+          
+          select={this.state.locselectat}/>
+        )} />
                 
       </div>
     );
