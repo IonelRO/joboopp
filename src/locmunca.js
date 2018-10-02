@@ -23,6 +23,7 @@ class Locmunca extends Component {
 							
 							<div className="isotope-container row grid-space-20">
 								{select
+								.filter((c) => c.id === "1")
 						        .map(lmvs =>
 								<div key={lmvs.id} className={`${lmvs.judet} ${lmvs.luna} col-sm-4 isotope-item margin-bottom-clear`}>
 				                  <div className="box-style-1 white-bg">
@@ -40,15 +41,6 @@ class Locmunca extends Component {
 				                </div>
        						 	)} 
 								</div>
-
-
-								
-
-								
-								
-							
-							
-								
 							</div>
 						</div>
 					</div>

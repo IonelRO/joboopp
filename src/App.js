@@ -251,34 +251,27 @@ class App extends Component {
       },
     ] };
   }
-   
+    selectLvms = (lmvs) => {
+    this.setState((state) => ({
+      super: state.super.filter((c) => c.id === lmvs.id)
+    }))
+    }
   
   render() {
-const client = Stitch.initializeDefaultAppClient('talentati-rtvdi');
 
-const db = client.getServiceClient(RemoteMongoClient.factory, 'mongodb-atlas').db('talent');
-
-client.auth.loginWithCredential(new AnonymousCredential()).then(user => 
-  db.collection('talentati').updateOne({owner_id: client.auth.user.id}, {$set:{number:42}}, {upsert:true})
-).then(() => 
-  db.collection('talentati').find({owner_id: client.auth.user.id}, { limit: 100}).asArray()
-).then(docs => {
-    console.log("Found docs", docs)
-    console.log("[MongoDB Stitch] Connected to Stitch")
-}).catch(err => {
-    console.error(err)
-});
       return (
       
       <div className="App">
       <Route exact path="/" render={() => (
           <Lmv
-          locuri={this.state.super}/>
+          locuri={this.state.super}
+          onLocClick={this.selectLvms}
+          />
         )} />
         <Route path="/locvacant" render={() => (
           <Locmunca
-          
-          select={this.state.locselectat}/>
+          onLocClick={this.selectLvms}
+          select={this.state.super}/>
         )} />
                 
       </div>

@@ -3,26 +3,14 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types'
 class Lmv extends Component {
  static propTypes = {
-    locuri: PropTypes.array.isRequired 
+    locuri: PropTypes.array.isRequired,
+    onLocClick: PropTypes.func.isRequired
  }
- constructor(props) {
-  super(props);
-  this.onLocClick = this.onLocClick.bind(this);
-  
-	}
-  onLocClick() {
-    this.setState({
-      locselectat: this.state.locuri
-      });
-    console.log('Click happened');
-  }; 
-  
+   
  render() {
  	const {locuri} = this.props
- 	
+ 	 const { onLocClick } = this.props
     return (
-
-
 
 			<section className="main-container gray-bg">
 
@@ -63,7 +51,10 @@ class Lmv extends Component {
 				                    </div>
 				                    <h3><a href="portfolio-item.html">{lmvs.angajator}</a></h3>
 				                    <p>{lmvs.locDeMuncaVacant}</p>
-				                    <a onClick={this.onLocClick} href="/locvacant"  className="btn btn-default">Detalii</a>
+				                    <a href="/locvacant" onClick={() => onLocClick(lmvs)}   className="btn btn-default">Detalii</a>	
+				                     <button onClick={() => onLocClick(lmvs)} className="btn btn-default">
+                						Filtreaza
+              						</button>			                   
 				                  </div>
 				                </div>
        						 	)} 
