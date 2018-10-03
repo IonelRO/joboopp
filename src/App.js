@@ -247,8 +247,10 @@ class App extends Component {
   }
     selectLvms = (lmvs) => {
     this.setState((state) => ({
-      super: state.super.filter((c) => c.id === lmvs.id)
+      super: state.super.filter((c) => c.id === lmvs.id),
+      locselectat: state.super.filter((c) => c.id === lmvs.id)
     }))
+    
     }
   
   render() {
@@ -265,7 +267,7 @@ class App extends Component {
         <Route path="/locvacant" render={() => (
           <Locmunca
           onLocClick={this.selectLvms}
-          select={this.state.super}/>
+          select={this.state.locselectat}/>
         )} />
                 
       </div>
