@@ -1,6 +1,7 @@
 
 import React, { Component } from 'react';
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
+import { Link  } from 'react-router-dom';
 class Lmv extends Component {
  static propTypes = {
     locuri: PropTypes.array.isRequired,
@@ -51,9 +52,9 @@ class Lmv extends Component {
 				                    </div>
 				                    <h3><a href="portfolio-item.html">{lmvs.angajator}</a></h3>
 				                    <p>{lmvs.locDeMuncaVacant}</p>
-				                    <a href="/locvacant" onClick={() => onLocClick(lmvs)}   className="btn btn-default">Detalii</a>	
+				                    
 				                     <button onClick={() => onLocClick(lmvs)} className="btn btn-default">
-                						Filtreaza
+                						<Link to={`/locvacant/${lmvs.id}`} style={{color: 'white'}}>Detalii</Link>	
               						</button>			                   
 				                  </div>
 				                </div>
