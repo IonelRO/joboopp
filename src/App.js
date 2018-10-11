@@ -3,7 +3,6 @@ import Lmv from './lmv.js';
 import Locmunca from './locmunca.js';
 import { Route  } from 'react-router-dom';
 import './App.css';
-
 class App extends Component {
   constructor(props) {
     super(props);

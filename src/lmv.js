@@ -45,12 +45,12 @@ class Lmv extends Component {
 				                  <div className="box-style-1 white-bg">
 				                    <div className="overlay-container">
 				                      <img src={lmvs.img} alt=""/>
-				                      <a href="portfolio-item.html" className="overlay small">
+				                      <a href="/locvacant" className="overlay small">
 				                        <i className="fa fa-plus"></i>
 				                        <span>{lmvs.locDeMuncaVacant}</span>
 				                      </a>
 				                    </div>
-				                    <h3><a href="portfolio-item.html">{lmvs.angajator}</a></h3>
+				                    <h3><a href="/locvacant">{lmvs.angajator}</a></h3>
 				                    <p>{lmvs.locDeMuncaVacant}</p>
 				                    
 				                     <button onClick={() => onLocClick(lmvs)} className="btn btn-default">
