@@ -13,7 +13,7 @@ class Lmv extends Component {
  	 const { onLocClick } = this.props
     return (
 
-			<section className="main-container gray-bg">
+			<section className="gray-bg">
 
 				
 				<div className="main">
@@ -64,6 +64,28 @@ class Lmv extends Component {
 							</div>
 						</div>
 					</div>
+		<div className="section gray-bg text-muted footer-top clearfix">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-6">
+              <div className="owl-carousel clients">
+              	{locuri
+              	.map(lmvsa =>
+                <div key={lmvsa.id} className="client">
+                  <a href={`/locvacant/${lmvsa.id}`}><img src={lmvsa.img} alt={lmvsa.locDeMuncaVacant}/></a>
+                </div>
+                )}                
+              </div>
+            </div>
+            <div className="col-md-6">
+              <blockquote className="inline">
+                <p className="margin-clear">Minds are like parachutes. They only function when open.</p>  
+                <footer><cite title="Source Title">Thomas Dewar</cite></footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
 				</div>
 			
 
