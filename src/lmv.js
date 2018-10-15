@@ -31,6 +31,7 @@ class Lmv extends Component {
 									<li><a href="" data-filter=".dolj">Dolj</a></li>
 									<li><a href="" data-filter=".iulie">Iulie 2018</a></li>
 									<li><a href="" data-filter=".august">August 2018</a></li>
+									<li><a href="" data-filter=".septembrie">Septembrie 2018</a></li>
 								</ul>
 
 							</div>
