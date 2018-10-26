@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from 'prop-types';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 // This example shows how to render two different screens
@@ -24,14 +23,10 @@ class ModalSwitch extends React.Component {
   // So, to get both screens to render, we can save the old
   // location and pass it to Switch, so it will think the location
   // is still `/` even though its `/img/2`.
-  
-   static propTypes = {
-    locuri: PropTypes.array.isRequired,
-    onLocClick: PropTypes.func.isRequired
- }
- previousLocation = this.props.location;
+  previousLocation = this.props.location;
+
   componentWillUpdate(nextProps) {
-    let { location } = this.props;   
+    let { location } = this.props;
 
     // set previousLocation if props.location is not modal
     if (
@@ -41,30 +36,18 @@ class ModalSwitch extends React.Component {
       this.previousLocation = this.props.location;
     }
   }
-  selectLvms = (lmvs) => {
-    this.setState((state) => ({
-      super: state.super.filter((c) => c.id === lmvs.id),
-      locselectat: state.super.filter((c) => c.id === lmvs.id)
-    }))
-    
-    }
-  render() {
 
+  render() {
     let { location } = this.props;
+
     let isModal = !!(
       location.state &&
       location.state.modal &&
-      this.previousLocation !== location);
-   
-    
-
-    const { onLocClick } = this.props;
-
-     // not initial render
+      this.previousLocation !== location
+    ); // not initial render
 
     return (
       <div>
-      
         <Switch location={isModal ? this.previousLocation : location}>
           <Route exact path="/" component={Home} />
           <Route path="/gallery" component={Gallery} />
@@ -77,22 +60,28 @@ class ModalSwitch extends React.Component {
 }
 
 const IMAGES = [
-  { id: 0, title: "Dark Orchid", color: "DarkOrchid" },
-  { id: 1, title: "Lime Green", color: "LimeGreen" },
-  { id: 2, title: "Tomato", color: "Tomato" },
-  { id: 3, title: "Seven Ate Nine", color: "#789" },
-  { id: 4, title: "Crimson", color: "Crimson" }
-];
-const locuri = [
-    {id:'1', judet: 'gorj', luna: 'iulie', img: 'images/tehnoinstal.jpg', angajator: 'SC TEHNOINSTAL SRL',
+  {id:'1', judet: 'gorj', luna: 'iulie', img: 'images/tehnoinstal.jpg', angajator: 'SC TEHNOINSTAL SRL',
      adresa: 'Str.1 Decembrie 1918,Tg-Jiu,Gor', locDeMuncaVacant: 'MECANIC UTILAJ',
      conditiiDeOcupare: 'LICEU', nrLocuri: '1', telefon:  '0786409053', email: 'scopi@apsg.eu'
       },
       {id:'2', judet: 'gorj', luna: 'iulie', img: 'images/angajari.jpg', angajator: 'SC GIMICRISPAU GRUP SRL',
       adresa: 'Tg-Jiu,Gorj', locDeMuncaVacant: 'LUCRATOR GESTIONAR',
       conditiiDeOcupare: 'LICEU', nrLocuri: '1', telefon:  '0744561096', email: 'scopi@apsg.eu'
+      },
+      {id:'3', judet: 'gorj', luna: 'iulie', img: 'images/angajari.jpg', angajator: 'RADU S 81 SRL',
+      adresa: 'Str Gen.Magheru,Tg-Jiu,jud.Gorj', locDeMuncaVacant: 'LUCRATOR GESTIONAR',
+      conditiiDeOcupare: 'LICEU', nrLocuri: '1', telefon:  '0765451836', email: 'scopi@apsg.eu'
+      },
+      {id:'4', judet: 'gorj', luna: 'iulie', img: 'images/succes.jpg', angajator: 'SC SUCCES NIC COM SRL',
+      adresa: 'Voluntari,str.Bucegi nr.1,Ilfov,loc munca Tg-Jiu', locDeMuncaVacant: 'OSPATAR',
+      conditiiDeOcupare: 'LICEU', nrLocuri: '10', telefon:  '0752181000', email: 'scopi@apsg.eu'
+      },
+      {id:'5', judet: 'gorj', luna: 'iulie', img: 'images/succes.jpg', angajator: 'SC SUCCES NIC COM SRL',
+      adresa: 'Voluntari,str.Bucegi nr.1,Ilfov,loc munca Tg-Jiu', locDeMuncaVacant: 'LUCRATOR COMRCIAL',
+      conditiiDeOcupare: 'LICEU', nrLocuri: '10', telefon:  '0752181000', email: 'scopi@apsg.eu'
       }
-      ];
+];
+
 function Thumbnail({ color }) {
   return (
     <div
@@ -119,40 +108,60 @@ function Image({ color }) {
 
 function Home() {
   return (
-    <div>
-      <Link to="/gallery">Visit the Gallery</Link>
-      <h2>Featured Images</h2>
-      <div className="isotope-container row grid-space-20">
-                {locuri                    
+    <section className="gray-bg">
+
+        
+        <div className="main">
+
+          <div className="container">
+            <div className="row">
+              <div className="col-md-12">
+                <h1 className="text-center title">Ultimele locuri de munca adaugate</h1>
+                <div className="separator"></div>
+                
+              <div className="filters margin-bottom-clear">
+                <ul className="nav nav-pills">
+                  <li className="active"><a href="" data-filter="*">Toate</a></li>
+                  <li><a href="" data-filter=".gorj">Gorj</a></li>
+                  <li><a href="" data-filter=".dolj">Dolj</a></li>
+                  <li><a href="" data-filter=".iulie">Iulie 2018</a></li>
+                  <li><a href="" data-filter=".august">August 2018</a></li>
+                  <li><a href="" data-filter=".septembrie">Septembrie 2018</a></li>
+                </ul>
+
+              </div>
+              
+              <div className="isotope-container row grid-space-20">
+                {IMAGES
+                    .filter(function(lmvs, index) {
+                      return lmvs.judet !== "";
+                    })
                     .map(lmvs =>
                 <div key={lmvs.id} className={`${lmvs.judet} ${lmvs.luna} col-sm-4 isotope-item margin-bottom-clear`}>
                           <div className="box-style-1 white-bg">
                             <div className="overlay-container">
                               <img src={lmvs.img} alt=""/>
-                              <a href="/locvacant" className="overlay small">
+                              <a href={`/img/${lmvs.id}`} className="overlay small">
                                 <i className="fa fa-plus"></i>
                                 <span>{lmvs.locDeMuncaVacant}</span>
                               </a>
                             </div>
-                            <h3><a href="/locvacant">{lmvs.angajator}</a></h3>
+                            <h3><a href={`/img/${lmvs.id}`}>{lmvs.angajator}</a></h3>
                             <p>{lmvs.locDeMuncaVacant}</p>
                             
-                             <button className="btn btn-default">
-                            <Link to={`/locvacant/${lmvs.id}`} style={{color: 'white'}}>Detalii</Link>  
+                             <button  className="btn btn-default">
+                            <Link to={`/img/${lmvs.id}`} style={{color: 'white'}}>Detalii</Link>  
                           </button>                        
                           </div>
                         </div>
                     )} 
                 </div>
-      <ul>
-        <li>
-          <Link to="/img/2">Tomato</Link>
-        </li>
-        <li>
-          <Link to="/img/4">Crimson</Link>
-        </li>
-      </ul>
-    </div>
+      
+              </div>
+            </div>
+          </div>    </div>      
+
+      </section>
   );
 }
 
@@ -182,10 +191,12 @@ function ImageView({ match }) {
   if (!image) return <div>Image not found</div>;
 
   return (
-    <div>
-      <h1>{image.title}</h1>
-      <Image color={image.color} />
+   <section className="gray-bg">
+   <div className="main">
+      <h1>{image.locDeMuncaVacant}</h1>
+
     </div>
+  </section>
   );
 }
 

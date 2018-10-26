@@ -55,7 +55,7 @@ class Lmv extends Component {
 				                    <p>{lmvs.locDeMuncaVacant}</p>
 				                    
 				                     <button onClick={() => onLocClick(lmvs)} className="btn btn-default">
-                						<Link to={`/locvacant/${lmvs.id}`} style={{color: 'white'}}>Detalii</Link>	
+                						<Link to={`/`} style={{color: 'white'}}>Detalii</Link>	
               						</button>			                   
 				                  </div>
 				                </div>

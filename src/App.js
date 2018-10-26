@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Lmv from './lmv.js';
 import Locmunca from './locmunca.js';
 import ModalGallery from './ModalSwitch.js';
-import ModalSwitch from './ModalSwitch.js';
 import { Route  } from 'react-router-dom';
 import './App.css';
 class App extends Component {
@@ -355,8 +354,9 @@ class App extends Component {
         )} />
         <Route path="/locvacant" render={() => (
           <ModalGallery
+          locuri={this.state.super}
           onLocClick={this.selectLvms}
-          select={this.state.locselectat}/>
+         />
         )} />
                 
       </div>
