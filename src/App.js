@@ -453,6 +453,7 @@ function Home() {
               </div>
             </div>
           </div>
+
     <div className="section gray-bg text-muted footer-top clearfix">
         <div className="container">
           <div className="row">
@@ -489,7 +490,7 @@ function ImageView({ match }) {
   if (!image) return <div>Image not found</div>;
 
   return (
-   
+    <section className="gray-bg">
       <div className="section gray-bg text-muted footer-top clearfix ">
       <div className="container">
       <h1>{image.angajator} angajeaza</h1>
@@ -508,13 +509,36 @@ function ImageView({ match }) {
                     <h2>{image.angajator}</h2>
                     <p>Adresa:{image.adresa}</p>
                     <p>Telefon:{image.telefon}</p>
-                </div>
-              </div>           
-          </div>
+             </div>
+            </div>           
            </div>
+          </div>
+         </div>
+
+        </div>  
+ <div className="section gray-bg text-muted footer-top clearfix">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-6">
+              <div className="owl-carousel clients">
+                {locuri
+                .map(lmvsa =>
+                <div key={lmvsa.id} className="client">
+                  <a href={`/lmvs/${lmvsa.id}`}><img src={`../${lmvsa.img}`} alt={lmvsa.locDeMuncaVacant}/></a>
+                </div>
+                )}                
+              </div>
+            </div>
+            <div className="col-md-6">
+              <blockquote className="inline">
+                <p className="margin-clear">Minds are like parachutes. They only function when open.</p>  
+                <footer><cite title="Source Title">Thomas Dewar</cite></footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
       </div>
-</div>                   
-    
+    </section>
   );
 }
 
