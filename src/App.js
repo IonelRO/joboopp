@@ -407,8 +407,21 @@ function Image({ color }) {
 
 function Home() {
   return (
+     
+     
     <section className="gray-bg">
-
+      <div className="page-intro">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12">
+              <ol className="breadcrumb">
+                <li><i className="fa fa-home pr-10"></i><a href="/">Home</a></li>
+                <li className="active"></li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
         
         <div className="main">
 
@@ -480,17 +493,31 @@ function Home() {
       
 
       </section>
+     
   );
 }
 
-
 function ImageView({ match }) {
-  let image = locuri[parseInt(match.params.id, 10)];
+  let image = locuri[parseInt(match.params.id, 10)]; 
 
   if (!image) return <div>Image not found</div>;
 
   return (
-    <section className="gray-bg">
+    <section className="gray-bg">      
+         
+       <div className="page-intro">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12">
+              <ol className="breadcrumb">
+                <li><i className="fa fa-home pr-10"></i><a href="/">Home</a></li>
+                <li className="active">{`Loc vacant / ${image.id}`}</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+      
       <div className="section gray-bg text-muted footer-top clearfix ">
       <div className="container">
       <h1>{image.angajator} angajeaza</h1>
@@ -539,6 +566,7 @@ function ImageView({ match }) {
         </div>
       </div>
     </section>
+
   );
 }
 
