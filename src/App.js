@@ -1,18 +1,69 @@
-import React, { Component } from 'react';
-import Lmv from './lmv.js';
-import Locmunca from './locmunca.js';
-import ModalGallery from './ModalSwitch.js';
-import { Route  } from 'react-router-dom';
-import './App.css';
-class App extends Component {
-  constructor(props) {
-    super(props);
-    
-    this.state = { 
-    locselectat: [],  
-    super: [
-    {id:'1', judet: 'gorj', luna: 'iulie', img: 'images/tehnoinstal.jpg', angajator: 'SC TEHNOINSTAL SRL',
-     adresa: 'Str.1 Decembrie 1918,Tg-Jiu,Gor', locDeMuncaVacant: 'MECANIC UTILAJ',
+import React from "react";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+
+// This example shows how to render two different screens
+// (or the same screen in a different context) at the same url,
+// depending on how you got there.
+//
+// Click the colors and see them full screen, then "visit the
+// gallery" and click on the colors. Note the URL and the component
+// are the same as before but now we see them inside a modal
+// on top of the old screen.
+
+class ModalSwitch extends React.Component {
+  // We can pass a location to <Switch/> that will tell it to
+  // ignore the router's current location and use the location
+  // prop instead.
+  //
+  // We can also use "location state" to tell the app the user
+  // wants to go to `/img/2` in a modal, rather than as the
+  // main page, keeping the gallery visible behind it.
+  //
+  // Normally, `/img/2` wouldn't match the gallery at `/`.
+  // So, to get both screens to render, we can save the old
+  // location and pass it to Switch, so it will think the location
+  // is still `/` even though its `/img/2`.
+  previousLocation = this.props.location;
+
+  componentWillUpdate(nextProps) {
+    let { location } = this.props;
+
+    // set previousLocation if props.location is not modal
+    if (
+      nextProps.history.action !== "POP" &&
+      (!location.state || !location.state.modal)
+    ) {
+      this.previousLocation = this.props.location;
+    }
+  }
+
+  render() {
+    let { location } = this.props;
+
+    let isModal = !!(
+      location.state &&
+      location.state.modal &&
+      this.previousLocation !== location
+    ); // not initial render
+
+    return (
+      <div>
+        <Switch location={isModal ? this.previousLocation : location}>
+          <Route exact path="/" component={Home} />
+          <Route path="/lmvs/:id" component={ImageView} />
+        </Switch>
+      </div>
+    );
+  }
+}
+
+const locuri = [
+      {id:'0', judet: 'gorj', luna: 'septembrie', img: 'images/angajari.jpg', angajator: 'Rodali Cargo Sri',
+      adresa: 'Str. Principala nr. 545, Giubega, Dolj', locDeMuncaVacant: 'Operator Statii Betoane',
+      conditiiDeOcupare: 'LICEU', nrLocuri: '1', telefon:  '0730033777', email: 'scopi@apsg.eu'
+      },
+      {id:'1', judet: 'gorj', luna: 'iulie', img: 'images/tehnoinstal.jpg', angajator: 'SC TEHNOINSTAL SRL',
+     adresa: 'Str.1 Decembrie 1918,Tg-Jiu,Gorj', locDeMuncaVacant: 'MECANIC UTILAJ',
      conditiiDeOcupare: 'LICEU', nrLocuri: '1', telefon:  '0786409053', email: 'scopi@apsg.eu'
       },
       {id:'2', judet: 'gorj', luna: 'iulie', img: 'images/angajari.jpg', angajator: 'SC GIMICRISPAU GRUP SRL',
@@ -326,42 +377,153 @@ class App extends Component {
       {id:'79', judet: 'gorj', luna: 'septembrie', img: 'images/angajari.jpg', angajator: 'SC MAPOVICOM SRL',
       adresa: 'Str.1Decembrie 1918,nr.72A', locDeMuncaVacant: 'PIZZAR',
       conditiiDeOcupare: 'LICEU', nrLocuri: '1', telefon:  '0784214901', email: 'scopi@apsg.eu'
-      },
-      {id:'80', judet: 'gorj', luna: 'septembrie', img: 'images/angajari.jpg', angajator: 'Rodali Cargo Sri',
-      adresa: 'Str. Principala nr. 545, Giubega, Dolj', locDeMuncaVacant: 'Operator Statii Betoane',
-      conditiiDeOcupare: 'LICEU', nrLocuri: '1', telefon:  '0730033777', email: 'scopi@apsg.eu'
-      },
-    ] };
-  }
-    selectLvms = (lmvs) => {
-    this.setState((state) => ({
-      super: state.super.filter((c) => c.id === lmvs.id),
-      locselectat: state.super.filter((c) => c.id === lmvs.id)
-    }))
+      },     
     
-    }
-  
-  render() {
+];
 
-      return (
-      
-      <div className="App">
-      <Route exact path="/" render={() => (
-          <Lmv
-          locuri={this.state.super}
-          onLocClick={this.selectLvms}
-          />
-        )} />
-        <Route path="/locvacant" render={() => (
-          <ModalGallery
-          locuri={this.state.super}
-          onLocClick={this.selectLvms}
-         />
-        )} />
+function Thumbnail({ color }) {
+  return (
+    <div
+      style={{
+        width: 50,
+        height: 50,
+        background: color
+      }}
+    />
+  );
+}
+
+function Image({ color }) {
+  return (
+    <div
+      style={{
+        width: "100%",
+        height: 400,
+        background: color
+      }}
+    />
+  );
+}
+
+function Home() {
+  return (
+    <section className="gray-bg">
+
+        
+        <div className="main">
+
+          <div className="container">
+            <div className="row">
+              <div className="col-md-12">
+                <h1 className="text-center title">Ultimele locuri de munca adaugate</h1>
+                <div className="separator"></div>
                 
+              <div className="filters margin-bottom-clear">
+                <ul className="nav nav-pills">
+                  <li className="active"><a href="" data-filter="*">Toate</a></li>
+                  <li><a href="" data-filter=".gorj">Gorj</a></li>
+                  <li><a href="" data-filter=".dolj">Dolj</a></li>
+                  <li><a href="" data-filter=".iulie">Iulie 2018</a></li>
+                  <li><a href="" data-filter=".august">August 2018</a></li>
+                  <li><a href="" data-filter=".septembrie">Septembrie 2018</a></li>
+                </ul>
+
+              </div>
+              
+              <div className="isotope-container row grid-space-20">
+                {locuri                    
+                    .map(lmvs =>
+                <div key={lmvs.id} className={`${lmvs.judet} ${lmvs.luna} col-sm-4 isotope-item margin-bottom-clear`}>
+                          <div className="box-style-1 white-bg">
+                            <div className="overlay-container">
+                              <img src={lmvs.img} alt=""/>
+                              <a href={`/lmvs/${lmvs.id}`} className="overlay small">
+                                <i className="fa fa-plus"></i>
+                                <span>{lmvs.locDeMuncaVacant}</span>
+                              </a>
+                            </div>
+                            <h3><a href={`/lmvs/${lmvs.id}`}>{lmvs.angajator}</a></h3>
+                            <p>{lmvs.locDeMuncaVacant}</p>
+                            <a href={`/lmvs/${lmvs.id}`} className="btn btn-default" style={{color: 'white'}}>Detalii</a>  
+                        </div>
+                        </div>
+                    )} 
+                </div>
+      
+              </div>
+            </div>
+          </div>
+    <div className="section gray-bg text-muted footer-top clearfix">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-6">
+              <div className="owl-carousel clients">
+                {locuri
+                .map(lmvsa =>
+                <div key={lmvsa.id} className="client">
+                  <a href={`/lmvs/${lmvsa.id}`}><img src={lmvsa.img} alt={lmvsa.locDeMuncaVacant}/></a>
+                </div>
+                )}                
+              </div>
+            </div>
+            <div className="col-md-6">
+              <blockquote className="inline">
+                <p className="margin-clear">Minds are like parachutes. They only function when open.</p>  
+                <footer><cite title="Source Title">Thomas Dewar</cite></footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
       </div>
-    );
-  }
+        </div>
+      
+
+      </section>
+  );
+}
+
+
+function ImageView({ match }) {
+  let image = locuri[parseInt(match.params.id, 10)];
+
+  if (!image) return <div>Image not found</div>;
+
+  return (
+   
+      <div className="section gray-bg text-muted footer-top clearfix ">
+      <div className="container">
+      <h1>{image.angajator} angajeaza</h1>
+      <div className="separator-2"></div>
+      <div className="container">
+          <div className="row">
+              <div className="col-md-8 col-md-offset-2 cmw_anunt_job_box_left">
+                  <div className="vacancy">
+                            <h2>{image.locDeMuncaVacant}</h2>
+                            <p>Conditii de ocupare:{image.conditiiDeOcupare}</p>
+                        
+                                                
+                                                </div>
+                <hr/>
+                <div className="company">
+                    <h2>{image.angajator}</h2>
+                    <p>Adresa:{image.adresa}</p>
+                    <p>Telefon:{image.telefon}</p>
+                </div>
+              </div>           
+          </div>
+           </div>
+      </div>
+</div>                   
+    
+  );
+}
+
+function App() {
+  return (
+    <Router>
+      <Route component={ModalSwitch} />
+    </Router>
+  );
 }
 
 export default App;
