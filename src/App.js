@@ -1,5 +1,12 @@
 import React from "react";
+import { render } from "react-dom";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { 
+    Stitch,
+    RemoteMongoClient,
+    AnonymousCredential
+} from "mongodb-stitch-browser-sdk";
+
 
 // This example shows how to render two different screens
 // (or the same screen in a different context) at the same url,
@@ -38,13 +45,30 @@ class ModalSwitch extends React.Component {
   }
 
   render() {
-    let { location } = this.props;
+  	const client = Stitch.initializeDefaultAppClient('talentati-rtvdi');
+
+	const db = client.getServiceClient(RemoteMongoClient.factory, 'mongodb-atlas').db('Talent');
+
+	client.auth.loginWithCredential(new AnonymousCredential()).then(user => 
+	  db.collection('Talentati').updateOne({owner_id: client.auth.user.id}, {$set:{number:42}}, {upsert:true})
+	).then(() => 
+	  db.collection('Talentati').find({owner_id: client.auth.user.id}, { limit: 100}).asArray()
+	).then(docs => {
+	    console.log("Found docs", docs)
+	    console.log("[MongoDB Stitch] Connected to Stitch")
+	}).catch(err => {
+	    console.error(err)
+	});
+
+
+      let { location } = this.props;
 
     let isModal = !!(
       location.state &&
       location.state.modal &&
       this.previousLocation !== location
     ); // not initial render
+
 
     return (
       <div>
