@@ -431,8 +431,6 @@ function Image({ color }) {
 
 function Home() {
   return (
-     
-     
     <section className="gray-bg">
       <div className="page-intro">
         <div className="container">
@@ -446,15 +444,12 @@ function Home() {
           </div>
         </div>
       </div>
-        
         <div className="main">
-
           <div className="container">
             <div className="row">
               <div className="col-md-12">
                 <h1 className="text-center title">Ultimele locuri de munca adaugate</h1>
                 <div className="separator"></div>
-                
               <div className="filters margin-bottom-clear">
                 <ul className="nav nav-pills">
                   <li className="active"><a href="" data-filter="*">Toate</a></li>
@@ -464,9 +459,7 @@ function Home() {
                   <li><a href="" data-filter=".august">August 2018</a></li>
                   <li><a href="" data-filter=".septembrie">Septembrie 2018</a></li>
                 </ul>
-
               </div>
-              
               <div className="isotope-container row grid-space-20">
                 {locuri                    
                     .map(lmvs =>
@@ -514,21 +507,15 @@ function Home() {
         </div>
       </div>
         </div>
-      
-
       </section>
-     
   );
 }
 
 function ImageView({ match }) {
   let image = locuri[parseInt(match.params.id, 10)]; 
-
   if (!image) return <div>Image not found</div>;
-
   return (
-    <section className="gray-bg">      
-         
+    <section className="gray-bg"> 
        <div className="page-intro">
         <div className="container">
           <div className="row">
@@ -541,7 +528,6 @@ function ImageView({ match }) {
           </div>
         </div>
       </div>
-      
       <div className="section gray-bg text-muted footer-top clearfix ">
       <div className="container">
       <h1>{image.angajator} angajeaza</h1>
@@ -552,22 +538,20 @@ function ImageView({ match }) {
                   <div className="vacancy">
                             <h2>{image.locDeMuncaVacant}</h2>
                             <p>Conditii de ocupare:{image.conditiiDeOcupare}</p>
-                        
-                                                
-                                                </div>
+                  </div>
                 <hr/>
-                <div className="company">
+            <div className="company">
                     <h2>{image.angajator}</h2>
                     <p>Adresa:{image.adresa}</p>
                     <p>Telefon:{image.telefon}</p>
-             </div>
+            </div>
             </div>           
            </div>
-          </div>
-         </div>
+      </div>
+      </div>
 
         </div>  
- <div className="section gray-bg text-muted footer-top clearfix">
+        <div className="section gray-bg text-muted footer-top clearfix">
         <div className="container">
           <div className="row">
             <div className="col-md-6">
@@ -593,7 +577,6 @@ function ImageView({ match }) {
 
   );
 }
-
 function App() {
   return (
     <Router>
@@ -601,5 +584,4 @@ function App() {
     </Router>
   );
 }
-
 export default App;
