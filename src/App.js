@@ -401,6 +401,34 @@ const locuri = [
       {id:'79', judet: 'gorj', luna: 'septembrie', img: 'images/angajari.jpg', angajator: 'SC MAPOVICOM SRL',
       adresa: 'Str.1Decembrie 1918,nr.72A', locDeMuncaVacant: 'PIZZAR',
       conditiiDeOcupare: 'LICEU', nrLocuri: '1', telefon:  '0784214901', email: 'scopi@apsg.eu'
+      },
+      {id:'80', judet: 'gorj', luna: 'octombrie', img: 'images/angajari.jpg', angajator: 'DMA QUALITY FOOD SRL',
+      adresa: 'Str. George Coşbuc 25A, BAIA MARE, Jud. MARAMUREŞ loc munca Tg-Jiu', locDeMuncaVacant: 'PIZZAR',
+      conditiiDeOcupare: 'Calificare in domeniu,aspect fizic placut,experienta', nrLocuri: '3', telefon:  '076132147', email: 'recrutare@dmagroup.ro'
+      },
+      {id:'81', judet: 'gorj', luna: 'octombrie', img: 'images/angajari.jpg', angajator: 'HANS OBERDING SRL',
+      adresa: 'Aleea Izvor 3, Loc. TÂRGU JIU, Jud. GORJ', locDeMuncaVacant: 'LACATUS MECANIC',
+      conditiiDeOcupare: 'Calificare in domeniu,experienta minim 1 an', nrLocuri: '1', telefon:  '0253218264', email: 'office@hansoberding.ro'
+      },
+      {id:'82', judet: 'gorj', luna: 'octombrie', img: 'images/angajari.jpg', angajator: 'VOTICOM SRL',
+      adresa: 'Str. Alexandru Ioan Ghica 2A, Loc. BUMBEŞTI-JIU, Jud. GORJ', locDeMuncaVacant: 'LUCRATOR GESTIONAR',
+      conditiiDeOcupare: 'LICEU', nrLocuri: '1', telefon:  '0785111471', email: 'scopi@apsg.eu'
+      },
+      {id:'83', judet: 'gorj', luna: 'octombrie', img: 'images/angajari.jpg', angajator: 'KONCORD TRANS SRL',
+      adresa: 'Aleea Macului 5, Loc. TÂRGU JIU, Jud. GORJ', locDeMuncaVacant: 'MUNCITOR NECALIFICAT LA AMBALAREA PRODUSELOR SOLIDE SI SEMISOLIDE',
+      conditiiDeOcupare: 'Fara experienta in domeniu,spirit de echipa,disponibilitate munca grea.', nrLocuri: '5', telefon:  '0253215935', email: 'scopi@apsg.eu'
+      },
+      {id:'84', judet: 'gorj', luna: 'octombrie', img: 'images/angajari.jpg', angajator: 'SC Novara T Impex SRL',
+      adresa: 'Str. Primaverii 35 Craiova.', locDeMuncaVacant: 'Instalator Apa, Canal',
+      conditiiDeOcupare: 'Calificare în domeniu', nrLocuri: '1', telefon:  '0251594025', email: 'novamarketing@yahoo.com'
+      },
+      {id:'85', judet: 'gorj', luna: 'octombrie', img: 'images/angajari.jpg', angajator: 'S.C. Stimir Com Srl',
+      adresa: 'Calea Bucuresti , Bl. P4, Sc. 1, Ap. 6, Loc. Craiova, Jud. Dolj', locDeMuncaVacant: 'Ajutor Ospatar',
+      conditiiDeOcupare: 'Calificare în domeniu', nrLocuri: '2', telefon:  '0765955081', email: 'predoi_giorgi@yanoo.com'
+      },
+      {id:'86', judet: 'gorj', luna: 'octombrie', img: 'images/angajari.jpg', angajator: 'S.C. Upipsa Srl',
+      adresa: 'Str. Izvor 22, Loc. Mischii, Jud. Dolj', locDeMuncaVacant: 'Frezor Universal',
+      conditiiDeOcupare: 'Calificare în domeniu', nrLocuri: '2', telefon:  '0251436770', email: 'scopi@apsg.eu'
       },     
     
 ];
