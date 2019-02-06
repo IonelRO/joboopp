@@ -1155,6 +1155,77 @@ const locuri = [
  
 {id:'587', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'MIRA MON PRESTCOM SRL', adresa: 'Bdul Mihai Viteazu 46, C.P. 331039, Loc. HUNEDOARA, tel. 0354881118', locDeMuncaVacant: 'ZIDAR ROSAR-TENCUITOR', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '2', telefon: '', email:'' },
  
+{id:'588', judet: 'dolj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: Universitatea din Craiova', adresa: 'Str. A. I. Cuza nr.13,  sala nr. 118, Craiova,  judetul Dolj,', locDeMuncaVacant: 'Muncitori fochisti', conditiiDeOcupare: 'calificat de calificare in meseria de fochist; autorizatie de fochist eliberata de I.S.C.I.R. valabila (insotita de talon).', nrLocuri: '4', telefon: '0251 414987', email:'scopi@apsg.ro' },
+ 
+{id:'589', judet: 'dolj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: Alyss-nicky SRL', adresa: 'B-dul 1 Mai 64, Loc. Craiova', locDeMuncaVacant: 'Patiser', conditiiDeOcupare: 'Calificare în domeniu', nrLocuri: '1', telefon: '0743291161', email:'scopi@apsg.ro' },
+ 
+{id:'590', judet: 'gorj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: Anairo SRL', adresa: 'Str.N Titulescu nr.1,Tg-Jiu Gorj', locDeMuncaVacant: 'Mecanic Utilaje', conditiiDeOcupare: 'Stapanirea tehnicilor de lucru legate de functie,cunostinte si experienta in domeniu', nrLocuri: '1', telefon: '0725913415', email:'anairosrl@yahoo.com' },
+ 
+{id:'591', judet: 'dolj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: Auchan Romania Sa', adresa: 'Bulevardul Iuliu Maniu 546-560, Loc. Sectorul 6   Bucuresti', locDeMuncaVacant: 'Lucrator Comercial in Craiova', conditiiDeOcupare: 'Calificare în domeniu', nrLocuri: '2', telefon: '0214090599', email:'cbondici@auchan.ro' },
+ 
+{id:'592', judet: 'gorj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: COMPUTER GENERATED SOLUTIONS ROMANIA SRL', adresa: 'Splaiul Independentei 319,  SECTORUL 6,BUCUREŞTI,loc munca Tg-Jiu', locDeMuncaVacant: 'OPERATOR SUPORT TEHNIC PENTRU SERVICII DE COMUNICATII ELECTRONICE', conditiiDeOcupare: 'Studii medii,cunoasterea unei limbi straine la nivel conversational', nrLocuri: '10', telefon: '0215270000', email:'hrgl@cgsinc.ro' },
+ 
+{id:'593', judet: 'gorj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: DMA QUALITY FOOD SRL', adresa: 'Str. George Coşbuc 25A, BAIA MARE, Jud. MARAMUREŞ', locDeMuncaVacant: 'LUCRATOR COMERCIAL', conditiiDeOcupare: 'Calificare in domeniu,aspect fizic placut,experienta', nrLocuri: '3', telefon: '0761320147', email:'recrutare@dmagroup.ro' },
+ 
+{id:'594', judet: 'gorj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: EUROLINES TUI TRAVEL CENTER', adresa: 'BDUL. Prefect Gavril Tudoras 15 B', locDeMuncaVacant: 'Consultanti turism', conditiiDeOcupare: 'Studii medii,abilitati foarte bune de comunicare si negociere', nrLocuri: '3', telefon: '0786408054', email:'scopi@apsg.ro' },
+ 
+{id:'595', judet: 'gorj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: EUROSPORT TRADING SA', adresa: 'Strada Calea Bucuresti 9,  Loc. TÂRGU JIU, Jud. GORJ', locDeMuncaVacant: 'AGENT DE VÂNZARI', conditiiDeOcupare: 'Minim studii medii,disponibilitate deplasare', nrLocuri: '2', telefon: '0253214443', email:'office@eurosport-sa.ro' },
+ 
+{id:'596', judet: 'gorj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: G T P D SRL', adresa: 'STR. 23 AUGUST 170, Loc. TÂRGU JIU, Jud. GORJ', locDeMuncaVacant: 'PATISER', conditiiDeOcupare: 'Fara experienta in domeniu,minim 10 clase', nrLocuri: '10', telefon: '0253227920', email:'scopi@apsg.ro' },
+ 
+{id:'597', judet: 'dolj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: Helin Management Srl', adresa: 'Str. Aviatorilor 1010, Loc. Ghercesti, Jud. Dolj', locDeMuncaVacant: 'Lucratorbucatarie (spalator Vase Mari)', conditiiDeOcupare: 'Calificare in domeniu', nrLocuri: '1', telefon: '0762634842', email:'scopi@apsg.ro' },
+ 
+{id:'598', judet: 'dolj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: Helin Management Srl', adresa: 'Str. Aviatorilor 1010, Loc. Ghercesti, Jud. Dolj', locDeMuncaVacant: 'Camerista Hotel', conditiiDeOcupare: 'Calificare în domeniu', nrLocuri: '2', telefon: '0762634842', email:'scopi@apsg.ro' },
+ 
+{id:'599', judet: 'gorj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: MIRUAL PROD SRL', adresa: 'Str. ANA IPĂTESCU  7  TÎRGU JIU', locDeMuncaVacant: 'PERSONAL MONTAJ MOBILA', conditiiDeOcupare: 'Calificare in domeniu, experienta minim 1 an', nrLocuri: '5', telefon: '0253218264', email:'office@hansoberding.ro' },
+ 
+{id:'600', judet: 'dolj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: Pan Group SA', adresa: 'Dacia 1a, Loc. Craiova, Jud. Dolj', locDeMuncaVacant: 'Patiser', conditiiDeOcupare: 'Calificare în domeniu', nrLocuri: '2', telefon: '0740115152', email:'lilisafta@pangrup.ro' },
+ 
+{id:'601', judet: 'dolj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: Premier Restaurants Romania Srl', adresa: 'Ploiesti,B-ld Republicii,nr.136', locDeMuncaVacant: 'Lucrator Comercial', conditiiDeOcupare: 'Calificare în domeniu', nrLocuri: '1', telefon: '0244407331', email:'craiova@ro.mcd.com' },
+ 
+{id:'602', judet: 'dolj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: Profi Rom Food Srl', adresa: 'Str.Calea Sever Bocu, nr.31', locDeMuncaVacant: 'Vanzator', conditiiDeOcupare: 'Calificare în domeniu', nrLocuri: '1', telefon: '0372568911', email:'resurseumane@profi.ro' },
+ 
+{id:'603', judet: 'dolj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: Restaurant Bacolux SRL', adresa: 'CALEA SEVERINULUI 3 CRAIOVA', locDeMuncaVacant: 'Bucatar', conditiiDeOcupare: 'Calificare în domeniu', nrLocuri: '1', telefon: '0251 487 217', email:'ru@bacolux.ro' },
+ 
+{id:'604', judet: 'dolj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: Restaurant Bacolux SRL', adresa: 'CALEA SEVERINULUI 3 CRAIOVA', locDeMuncaVacant: 'Ajutor Ospatar', conditiiDeOcupare: 'Calificare în domeniu', nrLocuri: '2', telefon: '0251 487 217', email:'ru@bacolux.ro' },
+ 
+{id:'605', judet: 'dolj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: Romanian Security Systems Srl', adresa: 'Bulevardul Dimitrie Pompeiu 10a, Et. 3, Loc. Bucuresti, Jud. Bucuresti', locDeMuncaVacant: 'Agent De Securitate', conditiiDeOcupare: 'Calificare în domeniu', nrLocuri: '1', telefon: '0724572564', email:'ofice.galati@r-ss.ro' },
+ 
+{id:'606', judet: 'dolj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: S.C. Stimir Com Srl', adresa: 'Calea Bucuresti , Bl. P4, Sc. 1, Ap. 6, Loc. Craiova, Jud. Dol', locDeMuncaVacant: 'Bucatar', conditiiDeOcupare: 'Calificare în domeniu', nrLocuri: '1', telefon: '0765955081', email:'predoi_giorgi@yanoo.com' },
+ 
+{id:'607', judet: 'gorj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: SC Baile Ticleni SRL', adresa: 'Str Villeneuve D ascq, Ticleni Gorj', locDeMuncaVacant: 'Receptioner', conditiiDeOcupare: 'Minim studii medii, disponibilitati de dialog, comportament civilizat', nrLocuri: '1', telefon: '0733051667', email:'scopi@apsg.ro' },
+ 
+{id:'608', judet: 'gorj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: Sc Marsat SA', adresa: 'Str.Termocentralei ,Nr.2,Tg-Jiu', locDeMuncaVacant: 'Sudor', conditiiDeOcupare: 'Calificare in domeniu,studii medii, disponibilitate deplasare', nrLocuri: '2', telefon: '0253210047', email:'office@marsat.com.ro' },
+ 
+{id:'609', judet: 'gorj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: Sc Marsat SA', adresa: 'Str.Termocentralei ,Nr.2,Tg-Jiu', locDeMuncaVacant: 'Lacatus mecanic', conditiiDeOcupare: 'Calificare in domeniu,studii medii,disponibilitate deplasare', nrLocuri: '2', telefon: '0253210047', email:'office@marsat.com.ro' },
+ 
+{id:'610', judet: 'gorj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: Sc Marsat SA', adresa: 'Str.Termocentralei ,Nr.2,Tg-Jiu', locDeMuncaVacant: 'Inginer', conditiiDeOcupare: 'Studii superioare,experienta in domeniu', nrLocuri: '2', telefon: '0253210047', email:'office@marsat.com.ro' },
+ 
+{id:'611', judet: 'gorj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: Sc Marsat SA', adresa: 'Str.Termocentralei ,Nr.2,Tg-Jiu', locDeMuncaVacant: 'Electrician', conditiiDeOcupare: 'Calificare in domeniu,studii medii,disponibilitate deplasare', nrLocuri: '2', telefon: '0253210047', email:'office@marsat.com.ro' },
+ 
+{id:'612', judet: 'dolj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: SC Metro Cash & Carry Romania Srl', adresa: 'Otopeni, Str: BUCURESTI- PLOIESTI, nr:289', locDeMuncaVacant: 'Lucrator Comercial', conditiiDeOcupare: 'Calificare în domeniu', nrLocuri: '1', telefon: '0265 202 150', email:'resurseumane.targumures@metro.ro' },
+ 
+{id:'613', judet: 'dolj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: Sc Tanidro Farm Srl', adresa: 'Strada Brestei 296, Cod Postal 200207, Loc. Craiova, Jud. Dolj', locDeMuncaVacant: 'Lucrator Comercial', conditiiDeOcupare: 'Calificare în domeniu', nrLocuri: '1', telefon: '0747017017', email:'scopi@apsg.ro' },
+ 
+{id:'614', judet: 'gorj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: SE BORDNETZE SRL,PL TG-JIU', adresa: 'BUCHIN,LUNCA GROFULUI DN6,KM 450', locDeMuncaVacant: 'CONFECTIONER CABLAJE AUTO', conditiiDeOcupare: '8 clase,fara experienta in domeniu,spirit de echipa.', nrLocuri: '130', telefon: '0255506424', email:'scopi@apsg.ro' },
+ 
+{id:'615', judet: 'gorj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: SE BORDNETZE SRL,PL TG-JIU', adresa: 'BUCHIN,LUNCA GROFULUI DN6,KM 450', locDeMuncaVacant: 'TEHNICIAN PROIECTANT', conditiiDeOcupare: 'Studii medii,vechime minim 6 luni', nrLocuri: '1', telefon: '0255506424', email:'scopi@apsg.ro' },
+ 
+{id:'616', judet: 'gorj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: SE BORDNETZE SRL,PL TG-JIU', adresa: 'BUCHIN,LUNCA GROFULUI DN6,KM 450', locDeMuncaVacant: 'ADMINISTRATOR RETEA CALCULATOARE', conditiiDeOcupare: 'Studii superioare,vechime minim 1 an', nrLocuri: '1', telefon: '0255506424', email:'scopi@apsg.ro' },
+ 
+{id:'617', judet: 'gorj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: SE BORNETZE SRL,PL TG-JIU', adresa: 'BUCHIN,LUNCA GROFULUI DN6,KM 450', locDeMuncaVacant: 'INGINER PRODUCTIE', conditiiDeOcupare: 'Studii superioare,vechime minim 1 an', nrLocuri: '1', telefon: '0255506424', email:'scopi@apsg.ro' },
+ 
+{id:'618', judet: 'gorj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: STAR MEDIA SRL', adresa: 'Slt. Vasile Militaru  Bl. 1, Sc. 1, Et. 4, Ap. 17 Loc. TÂRGU JIU, Jud. GORJ', locDeMuncaVacant: 'CONFECTIONER-ASAMBLOR ARTICOLE DIN TEXTILE', conditiiDeOcupare: 'Minim studii profesionale', nrLocuri: '10', telefon: '0766738490', email:'marlenpop@yahoo.com' },
+ 
+{id:'619', judet: 'dolj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: Tregi Direct Service Srl', adresa: 'STR. FRAŢII GOLEŞTI, Nr. 108A', locDeMuncaVacant: 'Operator Vanzari Prin Telefon', conditiiDeOcupare: 'Calificare în domeniu', nrLocuri: '1', telefon: '0212308060', email:'Jobtregidirectservice.com' },
+ 
+{id:'620', judet: 'dolj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: Valyscom Roiesti Srl', adresa: 'Calea Severinului 42a, Loc. Craiova, Jud. Dolj', locDeMuncaVacant: 'Bucatar', conditiiDeOcupare: 'Calificare în domeniu', nrLocuri: '1', telefon: '0251588414', email:'scopi@apsg.ro' },
+ 
+{id:'621', judet: 'gorj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: VILOMAR COMPREST SRL', adresa: 'COMPLEX COMERCIAL PIAŢA CENTRALĂ, Loc. TÂRGU JIU, Jud. GORJ', locDeMuncaVacant: 'Vanzator', conditiiDeOcupare: 'Calificare in domeniu', nrLocuri: '2', telefon: '0749029236', email:'scopi@apsg.ro' },
+ 
+{id:'622', judet: 'gorj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: VOTICOM SRL', adresa: 'Str. Alexandru Ioan Ghica 2A, Loc. BUMBEŞTI-JIU, Jud. GORJ', locDeMuncaVacant: 'LUCRATOR GESTIONAR', conditiiDeOcupare: 'Fara experienta, calificare,', nrLocuri: '1', telefon: '0785111471', email:'scopi@apsg.ro' },
+ 
+
 
 
 
