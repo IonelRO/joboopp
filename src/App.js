@@ -745,473 +745,239 @@ const locuri = [
 {id:'386', judet: 'hunedoara', luna: 'ianuarie', img: 'images/angajari.jpg', angajator: 'MIRA MON PRESTCOM SRL', adresa: 'Bulevardul Mihai Viteazu 46, C.P. 331039, Loc. HUNEDOARA,tel. 0354881118', locDeMuncaVacant: 'ZIDAR ROSAR-TENCUITOR', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '2', telefon: '', email:'' },
 {id:'387', judet: 'hunedoara', luna: 'ianuarie', img: 'images/angajari.jpg', angajator: 'TERACO PROD SRL', adresa: 'Bulevardul Libertatii 6, Ap. 33, C.P. 331032, Loc. HUNEDOARA,tel. 0723382241', locDeMuncaVacant: 'ZIDAR ROSAR-TENCUITOR', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '2', telefon: '', email:'' },
 {id:'388', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'SC SCENART THEATRE', adresa: 'Str. Avram Iancu, Bl. H3, C.P. 330025, Loc. DEVA, tel.', locDeMuncaVacant: 'ACTOR', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'389', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'D.G.A.S.P.C. HUNEDOARA', adresa: 'BLD. IULIU MANIU 18, Loc. DEVA, tel. 0254233341', locDeMuncaVacant: 'ADMINISTRATOR', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'390', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'ASOCIATIA PROPRIETARILOR DE LOCUINTE', adresa: 'PTA. 1 DECEMBRIE 1918 10, Bl. 15, Sc. A, Ap. 7, Loc. HUNEDOARA, tel. 0749378623', locDeMuncaVacant: 'ADMINISTRATOR', conditiiDeOcupare: 'Începător', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'391', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'PRIORITAR IMPEX SRL', adresa: 'Str. BRADULUI (PT NR. 2), Loc. CĂLAN, tel.', locDeMuncaVacant: 'AGENT COMERCIAL', conditiiDeOcupare: 'Experiență Medie', nrLocuri: '4', telefon: '', email:'' },
-
 {id:'392', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'SC DILSTOP SRL', adresa: 'Str. 22 Decembrie 39, C.P. 335300, Loc. CĂLAN, tel.', locDeMuncaVacant: 'AGENT COMERCIAL', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'393', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'SC ROM LEATHER SOFAS SRL', adresa: 'Satul Soimus 409, Loc. DEVA, tel. 0254237411', locDeMuncaVacant: 'AGENT CONTRACTARI SI ACHIZITII (BROKER MARFURI)', conditiiDeOcupare: 'Începător', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'394', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'ASOCIATIA MERIT', adresa: 'Bdul 22 Decembrie 37A, Bl. CLADIREA CEPROMIN, Ap. 221, Loc. DEVA, tel. 0254218111', locDeMuncaVacant: 'AGENT CURATENIE CLADIRI SI MIJLOACE DE TRANSPORT', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '2', telefon: '', email:'' },
-
 {id:'395', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'GEDI SECURITY', adresa: 'Str. Horea 212, C.P. 330139, Loc. DEVA, tel.', locDeMuncaVacant: 'AGENT DE SECURITATE', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'396', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'GEDI SECURITY', adresa: 'Str. Horea 212, C.P. 330139, Loc. DEVA, tel.', locDeMuncaVacant: 'AGENT DE SECURITATE INTERVENȚIE', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '2', telefon: '', email:'' },
-
 {id:'397', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'COMPLEX HOTELIER GERMISARA', adresa: 'Str. GERMISARA 1B, Loc. GEOAGIU, tel. 0734010560', locDeMuncaVacant: 'AJUTOR OSPATAR', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'398', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'EURO FOOD &DISTRIBUTION', adresa: 'Piaţa Libertatii 4, C.P. 331130, Loc. HUNEDOARA, tel. 0748190699', locDeMuncaVacant: 'AMBALATOR MANUAL', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '25', telefon: '', email:'' },
-
 {id:'399', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'LUDOTECA NEVERLAND SRL-D', adresa: 'Str. Preot Nistor Socaciu 7, C.P. 335900, Loc. SIMERIA', locDeMuncaVacant: 'ANIMATOR SOCIOEDUCATIV', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'400', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'LOBY PLAST SRL', adresa: 'Str. Horia 6, Loc. SIMERIA, tel. 0723553063', locDeMuncaVacant: 'ASAMBLATOR-MONTATOR PROFILE ALUMINIU SI GEAM TERMOPAN', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '2', telefon: '', email:'' },
-
 {id:'401', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'D.G.A.S.P.C. HUNEDOARA', adresa: 'BLD. IULIU MANIU 18, Loc. DEVA, tel. 0254233341', locDeMuncaVacant: 'ASISTENT MATERNAL', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'402', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'D.G.A.S.P.C. HUNEDOARA', adresa: 'BLD. IULIU MANIU 18, Loc. DEVA, tel. 0254233341', locDeMuncaVacant: 'ASISTENT MATERNAL', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'403', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'IMPO MIHAI SRL', adresa: 'P-ta. LIBERTATII, Bl. 5A, Sc. F, Et. 1, Ap. 53, Loc. CĂLAN, tel. 0254730430', locDeMuncaVacant: 'BARMAN', conditiiDeOcupare: 'Începător', nrLocuri: '2', telefon: '', email:'' },
-
 {id:'404', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'RUSTICANA MIXT S.R.L.', adresa: 'BOS 114, Loc. HUNEDOARA, tel. 0722512818', locDeMuncaVacant: 'BARMAN', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '2', telefon: '', email:'' },
-
 {id:'405', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'SC EIBY ROCKA SRL D', adresa: 'Str. Libertăţii 16, C.P. 335300, Loc. CĂLAN, tel.', locDeMuncaVacant: 'BETONIST', conditiiDeOcupare: 'Începător', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'406', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'MACON SRL', adresa: 'STR. SANTUHALM 1, Loc. DEVA, tel. 0254213930', locDeMuncaVacant: 'BETONIST', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '5', telefon: '', email:'' },
-
 {id:'407', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'RESEDINTA PENTRU SENIORI', adresa: 'Str. Rotarilor 141, C.P. 331116, Loc. HUNEDOARA, tel. 0773762509', locDeMuncaVacant: 'BUCATAR', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '2', telefon: '', email:'' },
-
 {id:'408', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'PARADIS TOUR STRAJA S.R.L.', adresa: 'Str. STRAJA, Loc. LUPENI, tel. 0724887293', locDeMuncaVacant: 'BUCATAR', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '3', telefon: '', email:'' },
-
 {id:'409', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'SC PAULORE FOOD SRL', adresa: 'Str. Closca, C.P. 332013, Loc. PETROŞANI, tel.', locDeMuncaVacant: 'BUCATAR', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'410', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'M&F MASTER CAFFE SRL', adresa: 'Str. Libertatii 4, C.P. 331128, Loc. HUNEDOARA, tel. 0768103419', locDeMuncaVacant: 'CAMERISTA HOTEL', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'411', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'RUMATI SERVTCOM SRL', adresa: 'Str. RACASTIE 49, Loc. HUNEDOARA, tel. 0742354079', locDeMuncaVacant: 'COAFOR', conditiiDeOcupare: 'Începător', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'412', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'BASDEEARIS TRAN SRL', adresa: 'Bdul Traian 2, C.P. 331050, Loc. HUNEDOARA, tel.', locDeMuncaVacant: 'CONDUCATOR ACTIVITATE DE TRANSPORT RUTIER', conditiiDeOcupare: 'Începător', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'413', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'NEW FASHION GROUP SRL', adresa: 'Str. TARGULUI 29, Loc. ORĂŞTIE, tel. 0254246204', locDeMuncaVacant: 'CONFECTIONER ARTICOLE DIN PIELE SI ÎNLOCUITORI', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'414', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'INTERMEDIA CALL 2005 SRL', adresa: 'STR. CONSTANTIN BURSAN 14, Loc. HUNEDOARA, tel. 0723170931', locDeMuncaVacant: 'CONFECTIONER-ASAMBLOR ART. DIN TEXTILE', conditiiDeOcupare: 'Experimentat', nrLocuri: '2', telefon: '', email:'' },
-
 {id:'415', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'SUCCES CONF RO SRL', adresa: 'Str. CARPATI 49, Loc. HUNEDOARA, tel. 0354405380', locDeMuncaVacant: 'CONFECTIONER-ASAMBLOR ARTICOLE DIN TEXTILE', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '2', telefon: '', email:'' },
-
 {id:'416', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'BIROU INDIVIDUAL NOTARIAL', adresa: 'STR. REPUBLICII, Bl. 8, Loc. BRAD, tel. 0254612600', locDeMuncaVacant: 'CONSILIER JURIDIC', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'417', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'SCM MITRANOVICI&MITRANOVICI', adresa: 'STR. MARASTI, Bl. 2, Sc. B, Et. P, Ap. 12, Loc. DEVA, tel.', locDeMuncaVacant: 'CONSILIER JURIDIC', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'418', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'D.G.A.S.P.C. HUNEDOARA', adresa: 'BLD. IULIU MANIU 18, Loc. DEVA, tel. 0254233341', locDeMuncaVacant: 'CONSILIER/EXPERT/INSPECTOR/REFERENT/ECONOMIST ÎN ECONOMIE GENERALA', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'419', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'REG NAŢA PĂDURILOR ROMSILVA RA BUCUREŞTI SUCURSALA DIRECŢIA SILVICĂ HUNEDOARA', adresa: 'MIHAI VITEAZU 10, Loc. DEVA, tel. 0254205100', locDeMuncaVacant: 'CONSILIER/EXPERT/INSPECTOR/REFERENT/ECONOMIST ÎN ECONOMIE GENERALA', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'420', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'SARMISMOB SA', adresa: 'Str. DR. VICTOR SUIAGA 2, Loc. DEVA, tel. 0737034621', locDeMuncaVacant: 'CONSILIER/EXPERT/INSPECTOR/REFERENT/ECONOMIST ÎN GESTIUNEA ECONOMICA', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'421', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'CENTRUL DE AFACERI MASTER', adresa: 'STR. IMPARATUL TRAIAN 42, Loc. DEVA, tel. 0254218111', locDeMuncaVacant: 'CONSULTANT ÎN MANAGEMENT', conditiiDeOcupare: 'Experimentat', nrLocuri: '3', telefon: '', email:'' },
-
 {id:'422', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'SANEX COM SRL', adresa: 'Str. M.KOGALNICEANU, Bl. 14, Et. P, Loc. DEVA, tel. 0254215858', locDeMuncaVacant: 'CONTABIL', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'423', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'EDOROM METAL SRL', adresa: 'STR. CALEA ROMANILOR 28, Loc. GEOAGIU, tel. 0254248450', locDeMuncaVacant: 'CONTABIL', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '2', telefon: '', email:'' },
-
 {id:'424', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'RUMATI SERVTCOM SRL', adresa: 'Str. RACASTIE 49, Loc. HUNEDOARA, tel. 0742354079', locDeMuncaVacant: 'CONTABIL', conditiiDeOcupare: 'Experiență Medie', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'425', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'SC ROM LEATHER SOFAS SRL', adresa: 'Satul Soimus 409, Loc. DEVA, tel. 0254237411', locDeMuncaVacant: 'CONTROLOR CALITATE', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '2', telefon: '', email:'' },
-
 {id:'426', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'INTERMEDIA CALL 2005 SRL', adresa: 'STR. CONSTANTIN BURSAN 14, Loc. HUNEDOARA, tel. 0723170931', locDeMuncaVacant: 'CONTROLOR CALITATE', conditiiDeOcupare: 'Experimentat', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'427', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'RUMATI SERVTCOM SRL', adresa: 'Str. RACASTIE 49, Loc. HUNEDOARA, tel. 0742354079', locDeMuncaVacant: 'CONTROLOR TRAFIC', conditiiDeOcupare: 'Începător', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'428', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'NEW FASHION GROUP SRL', adresa: 'Str. TARGULUI 29, Loc. ORĂŞTIE, tel. 0254246204', locDeMuncaVacant: 'CROITOR CONFECTII INDUSTRIALE DIN BLANA', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'429', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'ASSA ABLOY ENTRANCE SYSTEMS PRODUCTION ROMANIA S.R.L.', adresa: 'Str. Peştişul Mare 363, C.P. 331008, Loc. HUNEDOARA, tel. 0354808380', locDeMuncaVacant: 'CURATITOR-SABLATOR', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'430', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'ROSTYLE ALEX SRL', adresa: 'Str. ABATORULUI 3, Loc. BRAD, tel. 0254612768', locDeMuncaVacant: 'CUSATOR PIESE DIN PIELE SI ÎNLOCUITORI', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '10', telefon: '', email:'' },
-
 {id:'431', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'NEW FASHION GROUP SRL', adresa: 'Str. TARGULUI 29, Loc. ORĂŞTIE, tel. 0254246204', locDeMuncaVacant: 'CUSATOR PIESE DIN PIELE SI ÎNLOCUITORI', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '3', telefon: '', email:'' },
-
 {id:'432', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'BARIO 86 SRL', adresa: 'STR. INDEPENDENTEI 8, Ap. 16, Loc. HAŢEG, tel. 0763646155', locDeMuncaVacant: 'DIRECTOR SOCIETATE COMERCIALA', conditiiDeOcupare: 'Experiență Medie', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'433', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'GEDI SECURITY', adresa: 'Str. Horea 212, C.P. 330139, Loc. DEVA, tel.', locDeMuncaVacant: 'DISPECER CENTRU DE ALARMA', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'434', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'MIHAI GROUP CONSTRUCT SRL', adresa: 'Str. Libertăţii 17, Ap. 13, C.P. 335100, Loc. ANINOASA, tel. 0736828105', locDeMuncaVacant: 'DULGHER (EXCLUSIV RESTAURATOR)', conditiiDeOcupare: 'Avansat', nrLocuri: '2', telefon: '', email:'' },
-
 {id:'435', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'PETRA PAM S.R.L.', adresa: 'BRAII, Bl. 7, Sc. 2, Et. 1, Ap. 25, Loc. LUPENI, tel.', locDeMuncaVacant: 'DULGHER (EXCLUSIV RESTAURATOR)', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '2', telefon: '', email:'' },
-
 {id:'436', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'DOR PLURICOMPREST SRL', adresa: 'B-dul DECEBAL-COMPLEX COMERCIAL CENTRAL, Et. 1, Loc. DEVA, tel. 0254230630', locDeMuncaVacant: 'ELECTRICIAN DE ÎNTRETINERE SI REPARATII', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'437', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'ALIM COM MH SRL', adresa: 'B-dul MIHAI VITEAZU 43, Loc. HUNEDOARA, tel. 0354881118', locDeMuncaVacant: 'ELECTRICIAN DE ÎNTRETINERE SI REPARATII', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '2', telefon: '', email:'' },
-
 {id:'438', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'MIRA MON PRESTCOM SRL', adresa: 'Bdul Mihai Viteazu 46, C.P. 331039, Loc. HUNEDOARA, tel. 0354881118', locDeMuncaVacant: 'ELECTRICIAN DE ÎNTRETINERE SI REPARATII', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '3', telefon: '', email:'' },
-
 {id:'439', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'IMPERIAL PG SRL', adresa: 'Str. DACIA 2, Loc. PETROŞANI, tel.', locDeMuncaVacant: 'ELECTRICIAN DE ÎNTRETINERE SI REPARATII', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'440', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'ADEC ELECTRO S.R.L.', adresa: 'MURESULUI 88, Bl. C43, Sc. A, Et. 2, Ap. 10, Loc. HUNEDOARA, tel. 0745587381', locDeMuncaVacant: 'ELECTRICIAN ÎN CONSTRUCTII', conditiiDeOcupare: 'Începător', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'441', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'ALIM COM MH SRL', adresa: 'B-dul MIHAI VITEAZU 43, Loc. HUNEDOARA, tel. 0354881118', locDeMuncaVacant: 'ELECTROMECANIC', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'442', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'MIRA MON PRESTCOM SRL', adresa: 'Bdul Mihai Viteazu 46, C.P. 331039, Loc. HUNEDOARA, tel. 0354881118', locDeMuncaVacant: 'EXCAVATORIST PENTRU EXCAVATOARE CU ROTOR DE MARE CAPACITATE', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '2', telefon: '', email:'' },
-
 {id:'443', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'ASOCIATIA MERIT', adresa: 'Bdul 22 Decembrie 37A, Bl. CLADIREA CEPROMIN, Ap. 221, Loc. DEVA, tel. 0254218111', locDeMuncaVacant: 'FEMEIE DE SERVICIU', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '2', telefon: '', email:'' },
-
 {id:'444', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'RESEDINTA PENTRU SENIORI', adresa: 'Str. Rotarilor 141, C.P. 331116, Loc. HUNEDOARA, tel. 0773762509', locDeMuncaVacant: 'FEMEIE DE SERVICIU', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '2', telefon: '', email:'' },
-
 {id:'445', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'BADEA PUIU ADRIAN PFA', adresa: 'Satul RIUL ALB 101, Loc. SĂLAŞU DE SUS, tel.', locDeMuncaVacant: 'FEMEIE DE SERVICIU', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '2', telefon: '', email:'' },
-
 {id:'446', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'MIHAI GROUP CONSTRUCT SRL', adresa: 'Str. Libertăţii 17, Ap. 13, C.P. 335100, Loc. ANINOASA, tel. 0736828105', locDeMuncaVacant: 'FIERAR BETONIST', conditiiDeOcupare: 'Avansat', nrLocuri: '3', telefon: '', email:'' },
-
 {id:'447', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'IMPERIAL PG SRL', adresa: 'Str. DACIA 2, Loc. PETROŞANI, tel.', locDeMuncaVacant: 'FREZOR UNIVERSAL', conditiiDeOcupare: 'Începător', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'448', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'RUMATI SERVTCOM SRL', adresa: 'Str. RACASTIE 49, Loc. HUNEDOARA, tel. 0742354079', locDeMuncaVacant: 'FRIZER', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '2', telefon: '', email:'' },
-
 {id:'449', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'SARMISMOB SA', adresa: 'Str. DR. VICTOR SUIAGA 2, Loc. DEVA, tel. 0737034621', locDeMuncaVacant: 'GESTIONAR DEPOZIT', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'450', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'HIGH TOPO TERRA SRL', adresa: 'Localitate BĂNIŢA, tel. 0723636381', locDeMuncaVacant: 'INGINER GEODEZ', conditiiDeOcupare: 'Începător', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'451', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'INSTALATII GEVIS SRL', adresa: 'Str. ARDEALULUI 1, Loc. DEVA, tel. 0254225049', locDeMuncaVacant: 'INGINER INSTALATII PENTRU CONSTRUCTII', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'452', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'ALIM COM MH SRL', adresa: 'B-dul MIHAI VITEAZU 43, Loc. HUNEDOARA, tel. 0354881118', locDeMuncaVacant: 'INGINER MECANIC', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '2', telefon: '', email:'' },
-
 {id:'453', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'RESTAURANT CARO SRL', adresa: 'B-DUL LIBERTATII, Bl. L2, Ap. 14, Loc. DEVA, tel. 0254218630', locDeMuncaVacant: 'ÎNSOTITOR', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'454', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'PRIORITAR IMPEX SRL', adresa: 'Str. BRADULUI (PUNCT TERMIC NR. 2), Loc. CĂLAN, tel.', locDeMuncaVacant: 'INSPECTOR DOCUMENTE SECRETE', conditiiDeOcupare: 'Experiență Medie', nrLocuri: '4', telefon: '', email:'' },
-
 {id:'455', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'SARMISMOB SA', adresa: 'Str. DR. VICTOR SUIAGA 2, Loc. DEVA, tel. 0737034621', locDeMuncaVacant: 'INSPECTOR ÎN DOMENIUL SECURITATII SI SANATATII ÎN MUNCA', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'456', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'ALIM COM MH SRL', adresa: 'B-dul MIHAI VITEAZU 43, Loc. HUNEDOARA, tel. 0354881118', locDeMuncaVacant: 'INSTALATOR ÎNCALZIRE CENTRALA SI GAZE', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '5', telefon: '', email:'' },
-
 {id:'457', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'MIRA MON PRESTCOM SRL', adresa: 'Bdul Mihai Viteazu 46, C.P. 331039, Loc. HUNEDOARA, tel. 0354881118', locDeMuncaVacant: 'INSTALATOR ÎNCALZIRE CENTRALA SI GAZE', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '3', telefon: '', email:'' },
-
 {id:'458', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'APA PROD SA', adresa: 'CALEA ZARANDULUI 43, Loc. DEVA, tel. 0254222345', locDeMuncaVacant: 'LABORANT CHIMIST', conditiiDeOcupare: 'Începător', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'459', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'SC DEVA STEEL CORPORATION', adresa: 'Piaţa IANCU DE HUNEDOARA 1, Loc. HUNEDOARA, tel. 0723819493', locDeMuncaVacant: 'LACATUS MECANIC', conditiiDeOcupare: 'Începător', nrLocuri: '5', telefon: '', email:'' },
-
 {id:'460', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'ASSA ABLOY ENTRANCE SYSTEMS PRODUCTION ROMANIA S.R.L.', adresa: 'Str. Peştişul Mare 363, C.P. 331008, Loc. HUNEDOARA, tel. 0354808380', locDeMuncaVacant: 'LACATUS MECANIC', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '10', telefon: '', email:'' },
-
 {id:'461', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'UZINA MECANICA ORASTIE SA', adresa: 'Str. NICOLAE TITULESCU 60, Loc. ORĂŞTIE, tel.', locDeMuncaVacant: 'LACATUS MECANIC', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '2', telefon: '', email:'' },
-
 {id:'462', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'UZINA MECANICA ORASTIE SA', adresa: 'Str. NICOLAE TITULESCU 60, Loc. ORĂŞTIE, tel.', locDeMuncaVacant: 'LACATUS MECANIC', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'463', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'CHIMSPORT S.A.', adresa: 'Str. Codrului 24, C.P. 335700, Loc. ORĂŞTIE, tel.', locDeMuncaVacant: 'LACATUS MECANIC DE ÎNTRETINERE SI REPARATII UNIVERSALE', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'464', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'NEW FASHION GROUP SRL', adresa: 'Str. TARGULUI 29, Loc. ORĂŞTIE, tel. 0254246204', locDeMuncaVacant: 'LACATUS MECANIC DE ÎNTRETINERE SI REPARATII UNIVERSALE', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'465', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'MAVE STIL SRL', adresa: 'STR. MINERULUI, Bl. E, Sc. C, Et. P, Ap. 50, Loc. DEVA, tel. 0254222863', locDeMuncaVacant: 'LACATUS-MONTATOR', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'466', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'TERACO PROD SRL', adresa: 'Bdul Libertatii 6, Ap. 33, C.P. 331032, Loc. HUNEDOARA, tel. 0723382241', locDeMuncaVacant: 'LEGATOR DE SARCINA', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '4', telefon: '', email:'' },
-
 {id:'467', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'M&F MASTER CAFFE SRL', adresa: 'Str. Libertatii 4, C.P. 331128, Loc. HUNEDOARA, tel. 0768103419', locDeMuncaVacant: 'LUCRATOR BUCATARIE (SPALATOR VASE MARI)', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '2', telefon: '', email:'' },
-
 {id:'468', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'ALBATROS EXPRESS S.R.L.', adresa: 'VICTORIEI 5, Loc. HUNEDOARA, tel. 0254711220', locDeMuncaVacant: 'LUCRATOR BUCATARIE (SPALATOR VASE MARI)', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'469', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'IVA XSOUND SRL', adresa: 'STR. ANTON PANN 76, Loc. PETROŞANI, tel. 0744574440', locDeMuncaVacant: 'LUCRATOR BUCATARIE (SPALATOR VASE MARI)', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'470', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'NAIRDA VIO PAN S.R.L.-D.', adresa: 'Str. Gen. Vasile Milea, Bl. D2, PARTER, Loc. BRAD, tel.', locDeMuncaVacant: 'LUCRATOR COMERCIAL', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'471', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'BIA MINIMARKET JUNIOR', adresa: 'Bdul Dacia, Bl. 11, PARTER, C.P. 330106, Loc. DEVA, tel. 0724099101', locDeMuncaVacant: 'LUCRATOR COMERCIAL', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'472', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'COFFEE & BEVERAGE S.R.L.', adresa: 'Str. 1 Decembrie 1918, 18, Loc. DEVA, tel. 0736335414', locDeMuncaVacant: 'LUCRATOR COMERCIAL', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '2', telefon: '', email:'' },
-
 {id:'473', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'NOBLESSE FLOWERS & EVENTS', adresa: 'Str. PANSELUŢELOR, Bl. 27, Sc. 3, PARTER, Ap. 30, Loc. DEVA, tel.', locDeMuncaVacant: 'LUCRATOR COMERCIAL', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'474', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'VLADYX WORLD', adresa: 'Str. Ulpia 25, Ap. 7, C.P. 330013, Loc. DEVA, tel. 0744505284', locDeMuncaVacant: 'LUCRATOR COMERCIAL', conditiiDeOcupare: 'Începător', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'475', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'DURAM SRL', adresa: 'Str. 22 Decembrie 5, Bl. CM2, Ap. 59, C.P. 331021, Loc. HUNEDOARA, tel. 0722185395', locDeMuncaVacant: 'LUCRATOR COMERCIAL', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'476', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'DAV SERVCOM', adresa: 'Str. Tudor Vladimirescu, Bl. 38, C.P. 335800, Loc. PETRILA, tel. 0726373967', locDeMuncaVacant: 'LUCRATOR COMERCIAL', conditiiDeOcupare: 'Începător', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'477', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'S.C.PROD MOB O VIS', adresa: 'Str. Republicii, Bl. 54, Ap. 42, C.P. 335800, Loc. PETRILA, tel. 0725497488', locDeMuncaVacant: 'LUCRATOR COMERCIAL', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'478', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'CASTECO INVEST SRL', adresa: 'Str. MURESULUI 18, Loc. DEVA, tel. 0254231888', locDeMuncaVacant: 'LUCRATOR SORTATOR DESEURI RECICLABILE', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '2', telefon: '', email:'' },
-
 {id:'479', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'CASTECO INVEST SRL', adresa: 'Str. MURESULUI 18, Loc. DEVA, tel. 0254231888', locDeMuncaVacant: 'LUCRATOR SORTATOR DESEURI RECICLABILE', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'480', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'CADELPLAST GROUP SRL', adresa: 'Str. Carpati 51-55, C.P. 331032, Loc. HUNEDOARA, tel. 0254716518', locDeMuncaVacant: 'LUCRATOR SORTATOR DESEURI RECICLABILE', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '2', telefon: '', email:'' },
-
 {id:'481', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'INTERMEDIA CALL 2005 SRL', adresa: 'STR. CONSTANTIN BURSAN 14, Loc. HUNEDOARA, tel. 0723170931', locDeMuncaVacant: 'MAGAZINER', conditiiDeOcupare: 'Experimentat', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'482', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'INTERMEDIA CALL 2005 SRL', adresa: 'STR. CONSTANTIN BURSAN 14, Loc. HUNEDOARA, tel. 0723170931', locDeMuncaVacant: 'MAISTRU ÎN INDUSTRIILE TEXTILA, PIELARIE', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'483', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'VISA SA', adresa: 'STR. INDEPENDENTEI 5, Loc. PETROŞANI, tel. 0254545454', locDeMuncaVacant: 'MANAGER MARKETING (TARIFE, CONTRACTE, ACHIZITII)', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'484', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'EUROSPORT DHS SA', adresa: 'Str. SÂNTUHALM 35A, Loc. DEVA, tel. 0254210001', locDeMuncaVacant: 'MANIPULANT MARFURI', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '10', telefon: '', email:'' },
-
 {id:'485', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'POLIROMITA SRL', adresa: 'Str. DOROBANTI 32A, Loc. DEVA, tel.', locDeMuncaVacant: 'MANIPULANT MARFURI', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'486', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'DURAKRON CONVERT SRL', adresa: 'Bdul Dacia 9, Bl. A1-2, Ap. 16, C.P. 331013, Loc. HUNEDOARA, tel. 0766773746', locDeMuncaVacant: 'MANIPULANT MARFURI', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '2', telefon: '', email:'' },
-
 {id:'487', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'CART MET PLAST SRL', adresa: 'Str. LUNCII 1, Loc. ORĂŞTIE, tel. 0254247470', locDeMuncaVacant: 'MANIPULANT MARFURI', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'488', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'GILEX PROD SRL', adresa: 'Localitate BERIU, tel. 0254246070', locDeMuncaVacant: 'MANIPULANT MARFURI', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'489', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'M3 CONDESIGN SRL-D', adresa: 'Str. Petofi Şandor 15, Loc. HUNEDOARA, tel. 0744218929', locDeMuncaVacant: 'MASINIST LA MASINI CALE MECANIZARE USOARA SI GREA', conditiiDeOcupare: 'Avansat', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'490', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'INSTALATII GEVIS SRL', adresa: 'Str. ARDEALULUI 1, Loc. DEVA, tel. 0254225049', locDeMuncaVacant: 'MASINIST LA MASINI PENTRU TERASAMENTE (IFRONIST)', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'491', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'MACON SRL', adresa: 'STR. SANTUHALM 1, Loc. DEVA, tel. 0254213930', locDeMuncaVacant: 'MASINIST PENTRU PREFABRICATE DIN BETON SI BETON ARMAT', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'492', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'MACON SRL', adresa: 'STR. SANTUHALM 1, Loc. DEVA, tel. 0254213930', locDeMuncaVacant: 'MASINIST PENTRU PREFABRICATE DIN BETON SI BETON ARMAT', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '4', telefon: '', email:'' },
-
 {id:'493', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'EXPLOMIN SRL', adresa: 'Str. ARDEALULUI 1, Loc. DEVA, tel.', locDeMuncaVacant: 'MASINIST PENTRU UTILAJE SPECIFICE LA EXTRACTIE SI EXECUTIA TUNELURILOR', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '2', telefon: '', email:'' },
-
 {id:'494', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'MCA INVEST INDUSTRIAL SRL', adresa: 'STR. IMPARATUL TRAIAN 34, DEVA, tel. 0721508378', locDeMuncaVacant: 'MECANIC AUTO', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '5', telefon: '', email:'' },
-
 {id:'495', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'FORCE PROD SERV SRL', adresa: 'STR. COROESTI 18, Loc. VULCAN, tel.', locDeMuncaVacant: 'MECANIC AUTO', conditiiDeOcupare: 'Începător', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'496', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'INTERMEDIA CALL 2005 SRL', adresa: 'STR. CONSTANTIN BURSAN 14, Loc. HUNEDOARA, tel. 0723170931', locDeMuncaVacant: 'MECANIC ÎNTRETINERE SI REPARATII MASINI DE CUSUT INDUSTRIALE', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'497', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'VOL SPRINT TRUCK SRL', adresa: 'STR. ION CREANGA, Bl. 36, Sc. D, Ap. 44, Loc. DEVA, tel. 0758836584', locDeMuncaVacant: 'MECANIC UTILAJ', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'498', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'VOL SPRINT TRUCK SRL', adresa: 'STR. ION CREANGA, Bl. 36, Sc. D, Ap. 44, Loc. DEVA, tel. 0758836584', locDeMuncaVacant: 'MECANIC UTILAJ', conditiiDeOcupare: 'Începător', nrLocuri: '2', telefon: '', email:'' },
-
 {id:'499', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'ALIM COM MH SRL', adresa: 'B-dul MIHAI VITEAZU 43, HUNEDOARA, tel. 0354881118', locDeMuncaVacant: 'MECANIC UTILAJ', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '2', telefon: '', email:'' },
-
 {id:'500', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'COLBER CORPORATION SRL', adresa: 'SAT PESTISUL MARE DJ 687,INCINTA 4, Bl. HALA 1, Loc. HUNEDOARA, tel. 0354808280', locDeMuncaVacant: 'MONTATOR SUBANSAMBLE', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '10', telefon: '', email:'' },
-
 {id:'501', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'DAR DRAXLMAIER AUTOMOTIVE', adresa: 'Bdul Traian 19, C.P. 331023, HUNEDOARA, tel. 0354403725', locDeMuncaVacant: 'MONTATOR SUBANSAMBLE', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '3', telefon: '', email:'' },
-
 {id:'502', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'DAR DRAXLMAIER AUTOMOTIVE', adresa: 'Bdul Traian 19, C.P. 331023, Loc. HUNEDOARA, tel. 0354403725', locDeMuncaVacant: 'MONTATOR SUBANSAMBLE', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '40', telefon: '', email:'' },
-
 {id:'503', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'AGROZOOTEHNICA SRL', adresa: 'Str. Aurel Vlaicu 25, Loc. DEVA, tel.', locDeMuncaVacant: 'MUNC NEC ÎN AGRICULTURA', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '4', telefon: '', email:'' },
-
 {id:'504', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'BOSCO AMICO SRL', adresa: 'Str. PROGRESULUI 35, Loc. HAŢEG, tel.', locDeMuncaVacant: 'MUNC NEC ÎN AGRICULTURA', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'505', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'ROSTYLE ALEX SRL', adresa: 'Str. ABATORULUI 3, Loc. BRAD, tel. 0254612768', locDeMuncaVacant: 'MUNC NEC ÎN INDUSTRIA CONFECTIILOR', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '5', telefon: '', email:'' },
-
 {id:'506', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'REPARATII SIDERURGICE SA', adresa: 'Str. FURNALISTULUI 17G, Loc. CĂLAN, tel.', locDeMuncaVacant: 'MUNC NEC ÎN INDUSTRIA CONFECTIILOR', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'507', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'SC ROM LEATHER SOFAS SRL', adresa: 'Satul Soimus 409, Loc. DEVA, tel. 0254237411', locDeMuncaVacant: 'MUNC NEC ÎN INDUSTRIA CONFECTIILOR', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '4', telefon: '', email:'' },
-
 {id:'508', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'SC ROM LEATHER SOFAS SRL', adresa: 'Satul Soimus 409, Loc. DEVA, tel. 0254237411', locDeMuncaVacant: 'MUNC NEC ÎN INDUSTRIA CONFECTIILOR', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '5', telefon: '', email:'' },
-
 {id:'509', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'EXPLOMIN SRL', adresa: 'Str. ARDEALULUI 1, Loc. DEVA, tel.', locDeMuncaVacant: 'MUNC NEC ÎN MINE SI CARIERE', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '2', telefon: '', email:'' },
-
 {id:'510', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'MEYSTAR SRL', adresa: 'Str. SCHITULUI 6, TELIUCU INFERIOR, tel. 0254738776', locDeMuncaVacant: 'MUNC NEC ÎN SILVICULTURA', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'511', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'SC SAMCARLIS', adresa: 'Str. Independentei 1, C.P. 335300, Loc. CĂLAN, tel.', locDeMuncaVacant: 'MUNC NEC LA AMBALAREA PRODUSELOR SOLIDE SI SEMISOLIDE', conditiiDeOcupare: 'Începător', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'512', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'SARMISMOB SA', adresa: 'Str. DR. VICTOR SUIAGA 2, Loc. DEVA, tel. 0737034621', locDeMuncaVacant: 'MUNC NEC LA ASAMBL., MONTAREA PIESELOR', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '13', telefon: '', email:'' },
-
 {id:'513', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'SARMISMOB SA', adresa: 'Str. DR. VICTOR SUIAGA 2, Loc. DEVA, tel. 0737034621', locDeMuncaVacant: 'MUNC NEC LA ASAMBL., MONTAREA PIESELOR', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'514', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'CERURIM S.R.L.', adresa: 'Str. SÂNTUHALM 35A, Loc. DEVA, tel. 0746161652', locDeMuncaVacant: 'MUNC NEC LA ASAMBL., MONTAREA PIESELOR', conditiiDeOcupare: 'Începător', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'515', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'EUROSPORT DHS SA', adresa: 'Str. SÂNTUHALM 35A, Loc. DEVA, tel. 0254210001', locDeMuncaVacant: 'MUNC NEC LA ASAMBL., MONTAREA PIESELOR', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '50', telefon: '', email:'' },
-
 {id:'516', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'SEWS ROMANIA SRL', adresa: 'Calea Zarandului 166, C.P. 330092, DEVA, tel. 0254206600', locDeMuncaVacant: 'MUNC NEC LA ASAMBL., MONTAREA PIESELOR', conditiiDeOcupare: 'Experiență Medie', nrLocuri: '2', telefon: '', email:'' },
-
 {id:'517', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'SC DEVA STEEL CORPORATION', adresa: 'Piaţa IANCU DE HUNEDOARA 1, Loc. HUNEDOARA, tel. 0723819493', locDeMuncaVacant: 'MUNC NEC LA ASAMBL., MONTAREA PIESELOR', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '4', telefon: '', email:'' },
-
 {id:'518', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'CHIMSPORT S.A.', adresa: 'Str. Codrului 24, C.P. 335700, Loc. ORĂŞTIE, tel.', locDeMuncaVacant: 'MUNC NEC LA ASAMBL., MONTAREA PIESELOR', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'519', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'PETRA PAM S.R.L.', adresa: 'BRAII, Bl. 7, Sc. 2, Et. 1, Ap. 25, Loc. LUPENI, tel.', locDeMuncaVacant: 'MUNC NEC LA DEMOLAREA CLADIRILOR, CAPTUSELI ZIDARIE, PLACI MOZAIC, FAIANTA, GRESIE, PARCHET', conditiiDeOcupare: 'Începător', nrLocuri: '4', telefon: '', email:'' },
-
 {id:'520', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'VALE PROFESSIONAL CONSTRUCT', adresa: 'Str. VAIDEI, Loc. ORĂŞTIE, tel.', locDeMuncaVacant: 'MUNC NEC LA DEMOLAREA CLADIRILOR, CAPTUSELI ZIDARIE, PLACI MOZAIC, FAIANTA, GRESIE, PARCHET', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '2', telefon: '', email:'' },
-
 {id:'521', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'ALIM COM MH SRL', adresa: 'B-dul MIHAI VITEAZU 43, Loc. HUNEDOARA, tel. 0354881118', locDeMuncaVacant: 'MUNC NEC LA SPARGEREA SI TAIEREA MATERIALELOR DE CONSTRUCTII', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '6', telefon: '', email:'' },
-
 {id:'522', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'MIRA MON PRESTCOM SRL', adresa: 'Bdul Mihai Viteazu 46, C.P. 331039, Loc. HUNEDOARA, tel. 0354881118', locDeMuncaVacant: 'MUNC NEC LA SPARGEREA SI TAIEREA MATERIALELOR DE CONSTRUCTII', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '5', telefon: '', email:'' },
-
 {id:'523', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'CART MET PLAST SRL', adresa: 'Str. LUNCII 11, Loc. ORĂŞTIE, tel. 0254247470', locDeMuncaVacant: 'MUNCITOR SPALARE SI CURATARE CISTERNE', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'524', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'sc alin cont expert srl', adresa: 'Satul CLOPOTIVA 247, Loc. RÂU DE MORI, tel.', locDeMuncaVacant: 'OPERATOR CALCULATOR ELECTRONIC SI RETELE', conditiiDeOcupare: 'Începător', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'525', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'RESITEX GROUP S.R.L.', adresa: 'B-dul IULIU MANIU, Bl. 6, Sc. 1, Et. 1, Ap. 8, Loc. DEVA, tel. 0354414150', locDeMuncaVacant: 'OPERATOR CONFECTIONER INDUSTRIAL ÎMBRACAMINTE DIN TESATURI, TRICOTAJE, MATERIALE SINTETICE', conditiiDeOcupare: 'Experiență Medie', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'526', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'SARMISMOB SA', adresa: 'Str. DR. VICTOR SUIAGA 2, Loc. DEVA, tel. 0737034621', locDeMuncaVacant: 'OPERATOR LA MASINI-UNELTE CU COMANDA NUMERICA', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '3', telefon: '', email:'' },
-
 {id:'527', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'SC PERNAT ROMANIA SRL', adresa: 'Str. Codrului 30, C.P. 335700, ORĂŞTIE, tel. 0254206327', locDeMuncaVacant: 'OPERATOR LA MASINI-UNELTE CU COMANDA NUMERICA', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'528', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'SC PERNAT ROMANIA SRL', adresa: 'Str. Codrului 30, C.P. 335700, Loc. ORĂŞTIE, tel. 0254206327', locDeMuncaVacant: 'OPERATOR LA MASINI-UNELTE CU COMANDA NUMERICA', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'529', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'CHIMSPORT S.A.', adresa: 'Str. Codrului 24, C.P. 335700, Loc. ORĂŞTIE, tel.', locDeMuncaVacant: 'OPERATOR LA PRELUCRAREA MASELOR PLASTICE', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'530', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'ASSA ABLOY ENTRANCE SYSTEMS PRODUCTION ROMANIA S.R.L.', adresa: 'Str. Peştişul Mare 363, C.P. 331008, Loc. HUNEDOARA, tel. 0354808380', locDeMuncaVacant: 'OPERATOR LA ROBOTI INDUSTRIALI', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '2', telefon: '', email:'' },
-
 {id:'531', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'DAR DRAXLMAIER AUTOMOTIVE', adresa: 'Bdul Traian 19, C.P. 331023, HUNEDOARA, tel. 0354403725', locDeMuncaVacant: 'OPERATOR LA ROBOTI INDUSTRIALI', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '30', telefon: '', email:'' },
-
 {id:'532', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'FILPLAST SRL', adresa: 'STR. NICOLAE TITULESCU 60, C.P. 335700, Loc. ORĂŞTIE, tel. 0254243109', locDeMuncaVacant: 'OPERATOR MASE PLASTICE', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'533', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'CASTECO INVEST SRL', adresa: 'Str. MURESULUI 18, Loc. DEVA, tel. 0254231888', locDeMuncaVacant: 'OPERATOR TAIERE', conditiiDeOcupare: 'Experiență Medie', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'534', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'CASTECO INVEST SRL', adresa: 'Str. MURESULUI 18, Loc. DEVA, tel. 0254231888', locDeMuncaVacant: 'OPERATOR TAIERE', conditiiDeOcupare: 'Experiență Medie', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'535', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'BLISS EVENTS DELUX SRL', adresa: 'Str. ATELIERILOR 1, Loc. DEVA, tel. 0254211424', locDeMuncaVacant: 'OSPATAR (CHELNER)', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'536', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'PARADIS TOUR STRAJA S.R.L.', adresa: 'Str. STRAJA, Loc. LUPENI, tel. 0724887293', locDeMuncaVacant: 'OSPATAR (CHELNER)', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'537', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'PARADIS TOUR STRAJA S.R.L.', adresa: 'Str. STRAJA, Loc. LUPENI, tel. 0724887293', locDeMuncaVacant: 'OSPATAR (CHELNER)', conditiiDeOcupare: 'Începător', nrLocuri: '3', telefon: '', email:'' },
-
 {id:'538', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'OCOLUL SILVIC RETEZATUL CLOPOTIVA RÂU DE MORI SRL', adresa: 'PRINCIPALA 1, Loc. RÂU DE MORI, tel. 0722519147', locDeMuncaVacant: 'PADURAR', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '2', telefon: '', email:'' },
-
 {id:'539', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'PAPY DOLCE S.R.L.', adresa: '1848 34, Bl. 34, Sc. A, Ap. 3, Loc. HUNEDOARA, tel. 0727740890', locDeMuncaVacant: 'PATISER', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '2', telefon: '', email:'' },
-
 {id:'540', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'GALLI TECHNIC INTERNATIONAL', adresa: 'Str. Orizontului 1, C.P. 330181, DEVA, tel. 0737233590', locDeMuncaVacant: 'RECTIFICATOR UNIVERSAL', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '4', telefon: '', email:'' },
-
 {id:'541', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'SC TRANSPORT PUBLIC LOCAL DEVA SRL', adresa: 'Piaţa Unirii 4, C.P. 330152, Loc. DEVA, tel. 0727936959', locDeMuncaVacant: 'REFERENT', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'542', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'DAR DRAXLMAIER AUTOMOTIVE', adresa: 'Bdul Traian 19, C.P. 331023, HUNEDOARA, tel. 0354403725', locDeMuncaVacant: 'REGLOR-MONTATOR', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '3', telefon: '', email:'' },
-
 {id:'543', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'INSTALATII GEVIS SRL', adresa: 'Str. ARDEALULUI 1, Loc. DEVA, tel. 0254225049', locDeMuncaVacant: 'SAPATOR MANUAL', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'544', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'DAR DRAXLMAIER AUTOMOTIVE', adresa: 'Bdul Traian 19, C.P. 331023, Loc. HUNEDOARA, tel. 0354403725', locDeMuncaVacant: 'SCULER-MATRITER', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '2', telefon: '', email:'' },
-
 {id:'545', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'CENTRUL DE AFACERI MASTER', adresa: 'STR. IMPARATUL TRAIAN 42, Loc. DEVA, tel. 0254218111', locDeMuncaVacant: 'SECRETARA', conditiiDeOcupare: 'Avansat', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'546', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'PERSONAL REVCOM SRL', adresa: 'Str. LATURENI 27, Loc. HUNEDOARA, tel. 0751301455', locDeMuncaVacant: 'SECRETARA', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'547', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'ALIM COM MH SRL', adresa: 'B-dul MIHAI VITEAZU 43, HUNEDOARA, tel. 0354881118', locDeMuncaVacant: 'SECRETARA', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'548', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'SARMISMOB SA', adresa: 'Str. DR. VICTOR SUIAGA 2, Loc. DEVA, tel. 0737034621', locDeMuncaVacant: 'SERVANT POMPIER', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'549', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'POELZLEITNER GMBH SRL', adresa: '22 DECEMBRIE 37A, Et. 3, Ap. CAM.312/1B, Loc. DEVA', locDeMuncaVacant: 'SOFER AUTOCAMION/MASINA DE MARE TONAJ', conditiiDeOcupare: 'Începător', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'550', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'MCA INVEST INDUSTRIAL SRL', adresa: 'STR. IMPARATUL TRAIAN 34, DEVA, tel. 0721508378', locDeMuncaVacant: 'SOFER AUTOCAMION/MASINA DE MARE TONAJ', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '20', telefon: '', email:'' },
-
 {id:'551', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'MEM SPEED SRL', adresa: 'B-dul NICOLAE BALCESCU, Bl. 44A, Sc. B, Et. 2, Ap. 33, Loc. DEVA, tel. 0721981240', locDeMuncaVacant: 'SOFER AUTOCAMION/MASINA DE MARE TONAJ', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'552', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'RUMATI SERVTCOM SRL', adresa: 'Str. RACASTIE 49, Loc. HUNEDOARA, tel. 0742354079', locDeMuncaVacant: 'SOFER AUTOCAMION/MASINA DE MARE TONAJ', conditiiDeOcupare: 'Începător', nrLocuri: '2', telefon: '', email:'' },
-
 {id:'553', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'INDRA ALICOM SRL', adresa: 'STR. GRADISTEI 2, Loc. ORĂŞTIE, tel. 0744867960', locDeMuncaVacant: 'SOFER AUTOCAMION/MASINA DE MARE TONAJ', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'554', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'TEDEX COMPANY SRL CALAN', adresa: 'Satul STREISANGIORGIU 203, CĂLAN, tel. 0254730131', locDeMuncaVacant: 'SOFER DE AUTOTURISME SI CAMIONETE', conditiiDeOcupare: 'Începător', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'555', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'PRIORITAR IMPEX SRL', adresa: 'Str. BRADULUI (PUNCT TERMIC NR. 2), Loc. CĂLAN, tel.', locDeMuncaVacant: 'SOFER DE AUTOTURISME SI CAMIONETE', conditiiDeOcupare: 'Experiență Medie', nrLocuri: '2', telefon: '', email:'' },
-
 {id:'556', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'DURAKRON CONVERT SRL', adresa: 'Bdul Dacia 9, Bl. A1-2, Ap. 16, C.P. 331013, Loc. HUNEDOARA, tel. 0766773746', locDeMuncaVacant: 'SOFER DE AUTOTURISME SI CAMIONETE', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '2', telefon: '', email:'' },
-
 {id:'557', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'ALIM COM MH SRL', adresa: 'B-dul MIHAI VITEAZU 43, HUNEDOARA, tel. 0354881118', locDeMuncaVacant: 'SOFER DE AUTOTURISME SI CAMIONETE', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '3', telefon: '', email:'' },
-
 {id:'558', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'SPITALUL MUNICIPAL ORASTIE', adresa: 'STR. PRICAZULUI 16, Loc. ORĂŞTIE, tel. 0254242950', locDeMuncaVacant: 'SPALATOREASA LENJERIE', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'559', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'CENTRUL DE AFACERI MASTER', adresa: 'STR. IMPARATUL TRAIAN 42, DEVA, tel. 0254218111', locDeMuncaVacant: 'SPECIALIST PLAN PROGRES', conditiiDeOcupare: 'Avansat', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'560', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'SARMISMOB SA', adresa: 'Str. DR. VICTOR SUIAGA 2, Loc. DEVA, tel. 0737034621', locDeMuncaVacant: 'STIVUITORIST', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '2', telefon: '', email:'' },
-
 {id:'561', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'REPARATII SIDERURGICE SA', adresa: 'Str. FURNALISTULUI 17G, Loc. CĂLAN, tel.', locDeMuncaVacant: 'STRUNGAR UNIVERSAL', conditiiDeOcupare: 'Experiență Medie', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'562', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'ALIM COM MH SRL', adresa: 'B-dul MIHAI VITEAZU 43, HUNEDOARA, tel. 0354881118', locDeMuncaVacant: 'STRUNGAR UNIVERSAL', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'563', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'IMPERIAL PG SRL', adresa: 'Str. DACIA 2, Loc. PETROŞANI, tel.', locDeMuncaVacant: 'STRUNGAR UNIVERSAL', conditiiDeOcupare: 'Începător', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'564', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'SC DEVA STEEL CORPORATION', adresa: 'Piaţa IANCU DE HUNEDOARA 1, Loc. HUNEDOARA, tel. 0723819493', locDeMuncaVacant: 'SUDOR', conditiiDeOcupare: 'Începător', nrLocuri: '5', telefon: '', email:'' },
-
 {id:'565', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'MIRA MON PRESTCOM SRL', adresa: 'Bdul Mihai Viteazu 46, C.P. 331039, Loc. HUNEDOARA, tel. 0354881118', locDeMuncaVacant: 'SUDOR', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '3', telefon: '', email:'' },
-
 {id:'566', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'ALIM COM MH SRL', adresa: 'B-dul MIHAI VITEAZU 43, Loc. HUNEDOARA, tel. 0354881118', locDeMuncaVacant: 'SUDOR', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '3', telefon: '', email:'' },
-
 {id:'567', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'ASSA ABLOY ENTRANCE SYSTEMS PRODUCTION ROMANIA S.R.L.', adresa: 'Str. Peştişul Mare 363, C.P. 331008, Loc. HUNEDOARA, tel. 0354808380', locDeMuncaVacant: 'SUDOR', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '10', telefon: '', email:'' },
-
 {id:'568', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'IMPERIAL PG SRL', adresa: 'Str. DACIA 2, Loc. PETROŞANI, tel.', locDeMuncaVacant: 'SUDOR', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'569', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'SWISS TRADE SRL', adresa: 'Str. B-dul 1848 5, Loc. HUNEDOARA, tel. 0722103015', locDeMuncaVacant: 'SUDOR MANUAL CU ARC ELECTRIC', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'570', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'IMPERIAL PG SRL', adresa: 'Str. DACIA 2, Loc. PETROŞANI, tel.', locDeMuncaVacant: 'TAIETOR LA FERASTRAU PANGLICA', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'571', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'SARMISMOB SA', adresa: 'Str. DR. VICTOR SUIAGA 2, Loc. DEVA, tel. 0737034621', locDeMuncaVacant: 'TÂMPLAR UNIVERSAL', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '6', telefon: '', email:'' },
-
 {id:'572', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'S.C.PROD MOB O VIS', adresa: 'Str. Republicii, Bl. 54, Ap. 42, C.P. 335800, Loc. PETRILA, tel. 0725497488', locDeMuncaVacant: 'TÂMPLAR UNIVERSAL', conditiiDeOcupare: 'Începător', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'573', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'ITALROM LEATHER SRL', adresa: 'Satul MINTIA 202F, Loc. VEŢEL, tel. 0254236620', locDeMuncaVacant: 'TAPITER', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'574', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'INTERMEDIA CALL 2005 SRL', adresa: 'STR. CONSTANTIN BURSAN 14, Loc. HUNEDOARA, tel. 0723170931', locDeMuncaVacant: 'TEHNICIAN ÎN INDUSTRIA TEXTILA', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'575', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'CAFE BAR FARCASIU LUCIANO SRL', adresa: 'Str. PRINCIPALA 21, C.P. 335300, Loc. CĂLAN, tel.', locDeMuncaVacant: 'VÂNZATOR', conditiiDeOcupare: 'Începător', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'576', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'CAFE BAR FARCASIU LUCIANO SRL', adresa: 'Str. PRINCIPALA 21, C.P. 335300, Loc. CĂLAN, tel.', locDeMuncaVacant: 'VÂNZATOR', conditiiDeOcupare: 'Începător', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'577', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'SC LUCKY MIRAJ PLUS SRL', adresa: 'Str. NICOLAE BĂLCESCU, Bl. 3, Ap. 21, Loc. DEVA, tel. 0747047700', locDeMuncaVacant: 'VÂNZATOR', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'578', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'RUMATI SERVTCOM SRL', adresa: 'Str. RACASTIE 49, Loc. HUNEDOARA, tel. 0742354079', locDeMuncaVacant: 'VÂNZATOR', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '2', telefon: '', email:'' },
-
 {id:'579', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'PAPY DOLCE S.R.L.', adresa: '1848 34, Bl. 34, Sc. A, Ap. 3, Loc. HUNEDOARA, tel. 0727740890', locDeMuncaVacant: 'VÂNZATOR', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '2', telefon: '', email:'' },
-
 {id:'580', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'FASHION STAR STYLE SRL', adresa: 'Str. Saturn, Bl. 4, Ap. 9, Loc. PETROŞANI, tel. 0731656900', locDeMuncaVacant: 'VÂNZATOR', conditiiDeOcupare: 'Începător', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'581', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'SESY SI DADU', adresa: 'Str. Vasile Alecsandri 3, Bl. 37, Sc. 1, Ap. 2, C.P. 336200, Loc. VULCAN, tel.', locDeMuncaVacant: 'VÂNZATOR', conditiiDeOcupare: 'Începător', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'582', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'ALIMAR & ANASTASIA SRL', adresa: 'Str. Traian 10, C.P. 336200, Loc. VULCAN, tel. 0762438923', locDeMuncaVacant: 'VÂNZATOR', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'583', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'SC DIRECT TEXTIL SHOP', adresa: 'Str. TEODORA LUCACIU 12, Loc. VULCAN, tel. 0760861295', locDeMuncaVacant: 'VÂNZATOR', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '1', telefon: '', email:'' },
-
 {id:'584', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'ASSA ABLOY ENTRANCE SYSTEMS PRODUCTION ROMANIA S.R.L.', adresa: 'Str. Peştişul Mare 363, C.P. 331008, Loc. HUNEDOARA, tel. 0354808380', locDeMuncaVacant: 'VOPSITOR INDUSTRIAL', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '2', telefon: '', email:'' },
-
 {id:'585', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'ALIM COM MH SRL', adresa: 'B-dul MIHAI VITEAZU 43, Loc. HUNEDOARA, tel. 0354881118', locDeMuncaVacant: 'ZIDAR ROSAR-TENCUITOR', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '2', telefon: '', email:'' },
-
 {id:'586', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'TERACO PROD SRL', adresa: 'Bdul Libertatii 6, Ap. 33, C.P. 331032, Loc. HUNEDOARA, tel. 0723382241', locDeMuncaVacant: 'ZIDAR ROSAR-TENCUITOR', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '2', telefon: '', email:'' },
-
 {id:'587', judet: 'hunedoara', luna: 'decembrie', img: 'images/angajari.jpg', angajator: 'MIRA MON PRESTCOM SRL', adresa: 'Bdul Mihai Viteazu 46, C.P. 331039, Loc. HUNEDOARA, tel. 0354881118', locDeMuncaVacant: 'ZIDAR ROSAR-TENCUITOR', conditiiDeOcupare: 'Fără Experiență', nrLocuri: '2', telefon: '', email:'' },
-
 {id:'588', judet: 'dolj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: 'Universitatea din Craiova', adresa: 'Str. A. I. Cuza nr.13,  sala nr. 118, Craiova,  judetul Dolj,', locDeMuncaVacant: 'Muncitori fochisti', conditiiDeOcupare: 'calificat de calificare in meseria de fochist; autorizatie de fochist eliberata de I.S.C.I.R. valabila (insotita de talon).', nrLocuri: '4', telefon: '0251 414987', email:'scopi@apsg.ro' },
-
 {id:'589', judet: 'dolj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: 'Alyss-nicky SRL', adresa: 'B-dul 1 Mai 64, Loc. Craiova', locDeMuncaVacant: 'Patiser', conditiiDeOcupare: 'Calificare în domeniu', nrLocuri: '1', telefon: '0743291161', email:'scopi@apsg.ro' },
-
 {id:'590', judet: 'gorj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: 'Anairo SRL', adresa: 'Str.N Titulescu nr.1,Tg-Jiu Gorj', locDeMuncaVacant: 'Mecanic Utilaje', conditiiDeOcupare: 'Stapanirea tehnicilor de lucru legate de functie,cunostinte si experienta in domeniu', nrLocuri: '1', telefon: '0725913415', email:'anairosrl@yahoo.com' },
-
 {id:'591', judet: 'dolj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: 'Auchan Romania Sa', adresa: 'Bulevardul Iuliu Maniu 546-560, Loc. Sectorul 6   Bucuresti', locDeMuncaVacant: 'Lucrator Comercial in Craiova', conditiiDeOcupare: 'Calificare în domeniu', nrLocuri: '2', telefon: '0214090599', email:'cbondici@auchan.ro' },
-
 {id:'592', judet: 'gorj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: 'COMPUTER GENERATED SOLUTIONS ROMANIA SRL', adresa: 'Splaiul Independentei 319,  SECTORUL 6,BUCUREŞTI,loc munca Tg-Jiu', locDeMuncaVacant: 'OPERATOR SUPORT TEHNIC PENTRU SERVICII DE COMUNICATII ELECTRONICE', conditiiDeOcupare: 'Studii medii,cunoasterea unei limbi straine la nivel conversational', nrLocuri: '10', telefon: '0215270000', email:'hrgl@cgsinc.ro' },
-
 {id:'593', judet: 'gorj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: 'DMA QUALITY FOOD SRL', adresa: 'Str. George Coşbuc 25A, BAIA MARE, Jud. MARAMUREŞ', locDeMuncaVacant: 'LUCRATOR COMERCIAL', conditiiDeOcupare: 'Calificare in domeniu,aspect fizic placut,experienta', nrLocuri: '3', telefon: '0761320147', email:'recrutare@dmagroup.ro' },
-
 {id:'594', judet: 'gorj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: 'EUROLINES TUI TRAVEL CENTER', adresa: 'BDUL. Prefect Gavril Tudoras 15 B', locDeMuncaVacant: 'Consultanti turism', conditiiDeOcupare: 'Studii medii,abilitati foarte bune de comunicare si negociere', nrLocuri: '3', telefon: '0786408054', email:'scopi@apsg.ro' },
-
 {id:'595', judet: 'gorj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: 'EUROSPORT TRADING SA', adresa: 'Strada Calea Bucuresti 9,  Loc. TÂRGU JIU, Jud. GORJ', locDeMuncaVacant: 'AGENT DE VÂNZARI', conditiiDeOcupare: 'Minim studii medii,disponibilitate deplasare', nrLocuri: '2', telefon: '0253214443', email:'office@eurosport-sa.ro' },
-
 {id:'596', judet: 'gorj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: 'G T P D SRL', adresa: 'STR. 23 AUGUST 170, Loc. TÂRGU JIU, Jud. GORJ', locDeMuncaVacant: 'PATISER', conditiiDeOcupare: 'Fara experienta in domeniu,minim 10 clase', nrLocuri: '10', telefon: '0253227920', email:'scopi@apsg.ro' },
-
 {id:'597', judet: 'dolj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: 'Helin Management Srl', adresa: 'Str. Aviatorilor 1010, Loc. Ghercesti, Jud. Dolj', locDeMuncaVacant: 'Lucratorbucatarie (spalator Vase Mari)', conditiiDeOcupare: 'Calificare in domeniu', nrLocuri: '1', telefon: '0762634842', email:'scopi@apsg.ro' },
-
 {id:'598', judet: 'dolj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: 'Helin Management Srl', adresa: 'Str. Aviatorilor 1010, Loc. Ghercesti, Jud. Dolj', locDeMuncaVacant: 'Camerista Hotel', conditiiDeOcupare: 'Calificare în domeniu', nrLocuri: '2', telefon: '0762634842', email:'scopi@apsg.ro' },
-
 {id:'599', judet: 'gorj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: 'MIRUAL PROD SRL', adresa: 'Str. ANA IPĂTESCU  7  TÎRGU JIU', locDeMuncaVacant: 'PERSONAL MONTAJ MOBILA', conditiiDeOcupare: 'Calificare in domeniu, experienta minim 1 an', nrLocuri: '5', telefon: '0253218264', email:'office@hansoberding.ro' },
-
 {id:'600', judet: 'dolj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: 'Pan Group SA', adresa: 'Dacia 1a, Loc. Craiova, Jud. Dolj', locDeMuncaVacant: 'Patiser', conditiiDeOcupare: 'Calificare în domeniu', nrLocuri: '2', telefon: '0740115152', email:'lilisafta@pangrup.ro' },
-
 {id:'601', judet: 'dolj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: 'Premier Restaurants Romania Srl', adresa: 'Ploiesti,B-ld Republicii,nr.136', locDeMuncaVacant: 'Lucrator Comercial', conditiiDeOcupare: 'Calificare în domeniu', nrLocuri: '1', telefon: '0244407331', email:'craiova@ro.mcd.com' },
-
 {id:'602', judet: 'dolj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: 'Profi Rom Food Srl', adresa: 'Str.Calea Sever Bocu, nr.31', locDeMuncaVacant: 'Vanzator', conditiiDeOcupare: 'Calificare în domeniu', nrLocuri: '1', telefon: '0372568911', email:'resurseumane@profi.ro' },
-
 {id:'603', judet: 'dolj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: 'Restaurant Bacolux SRL', adresa: 'CALEA SEVERINULUI 3 CRAIOVA', locDeMuncaVacant: 'Bucatar', conditiiDeOcupare: 'Calificare în domeniu', nrLocuri: '1', telefon: '0251 487 217', email:'ru@bacolux.ro' },
-
 {id:'604', judet: 'dolj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: 'Restaurant Bacolux SRL', adresa: 'CALEA SEVERINULUI 3 CRAIOVA', locDeMuncaVacant: 'Ajutor Ospatar', conditiiDeOcupare: 'Calificare în domeniu', nrLocuri: '2', telefon: '0251 487 217', email:'ru@bacolux.ro' },
-
 {id:'605', judet: 'dolj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: 'Romanian Security Systems Srl', adresa: 'Bulevardul Dimitrie Pompeiu 10a, Et. 3, Loc. Bucuresti, Jud. Bucuresti', locDeMuncaVacant: 'Agent De Securitate', conditiiDeOcupare: 'Calificare în domeniu', nrLocuri: '1', telefon: '0724572564', email:'ofice.galati@r-ss.ro' },
-
 {id:'606', judet: 'dolj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: 'S.C. Stimir Com Srl', adresa: 'Calea Bucuresti , Bl. P4, Sc. 1, Ap. 6, Loc. Craiova, Jud. Dol', locDeMuncaVacant: 'Bucatar', conditiiDeOcupare: 'Calificare în domeniu', nrLocuri: '1', telefon: '0765955081', email:'predoi_giorgi@yanoo.com' },
-
 {id:'607', judet: 'gorj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: 'SC Baile Ticleni SRL', adresa: 'Str Villeneuve D ascq, Ticleni Gorj', locDeMuncaVacant: 'Receptioner', conditiiDeOcupare: 'Minim studii medii, disponibilitati de dialog, comportament civilizat', nrLocuri: '1', telefon: '0733051667', email:'scopi@apsg.ro' },
-
 {id:'608', judet: 'gorj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: 'Sc Marsat SA', adresa: 'Str.Termocentralei ,Nr.2,Tg-Jiu', locDeMuncaVacant: 'Sudor', conditiiDeOcupare: 'Calificare in domeniu,studii medii, disponibilitate deplasare', nrLocuri: '2', telefon: '0253210047', email:'office@marsat.com.ro' },
-
 {id:'609', judet: 'gorj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: 'Sc Marsat SA', adresa: 'Str.Termocentralei ,Nr.2,Tg-Jiu', locDeMuncaVacant: 'Lacatus mecanic', conditiiDeOcupare: 'Calificare in domeniu,studii medii,disponibilitate deplasare', nrLocuri: '2', telefon: '0253210047', email:'office@marsat.com.ro' },
-
 {id:'610', judet: 'gorj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: 'Sc Marsat SA', adresa: 'Str.Termocentralei ,Nr.2,Tg-Jiu', locDeMuncaVacant: 'Inginer', conditiiDeOcupare: 'Studii superioare,experienta in domeniu', nrLocuri: '2', telefon: '0253210047', email:'office@marsat.com.ro' },
-
 {id:'611', judet: 'gorj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: 'Sc Marsat SA', adresa: 'Str.Termocentralei ,Nr.2,Tg-Jiu', locDeMuncaVacant: 'Electrician', conditiiDeOcupare: 'Calificare in domeniu,studii medii,disponibilitate deplasare', nrLocuri: '2', telefon: '0253210047', email:'office@marsat.com.ro' },
-
 {id:'612', judet: 'dolj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: 'SC Metro Cash & Carry Romania Srl', adresa: 'Otopeni, Str: BUCURESTI- PLOIESTI, nr:289', locDeMuncaVacant: 'Lucrator Comercial', conditiiDeOcupare: 'Calificare în domeniu', nrLocuri: '1', telefon: '0265 202 150', email:'resurseumane.targumures@metro.ro' },
-
 {id:'613', judet: 'dolj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: 'Sc Tanidro Farm Srl', adresa: 'Strada Brestei 296, Cod Postal 200207, Loc. Craiova, Jud. Dolj', locDeMuncaVacant: 'Lucrator Comercial', conditiiDeOcupare: 'Calificare în domeniu', nrLocuri: '1', telefon: '0747017017', email:'scopi@apsg.ro' },
-
 {id:'614', judet: 'gorj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: 'SE BORDNETZE SRL,PL TG-JIU', adresa: 'BUCHIN,LUNCA GROFULUI DN6,KM 450', locDeMuncaVacant: 'CONFECTIONER CABLAJE AUTO', conditiiDeOcupare: '8 clase,fara experienta in domeniu,spirit de echipa.', nrLocuri: '130', telefon: '0255506424', email:'scopi@apsg.ro' },
-
 {id:'615', judet: 'gorj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: 'SE BORDNETZE SRL,PL TG-JIU', adresa: 'BUCHIN,LUNCA GROFULUI DN6,KM 450', locDeMuncaVacant: 'TEHNICIAN PROIECTANT', conditiiDeOcupare: 'Studii medii,vechime minim 6 luni', nrLocuri: '1', telefon: '0255506424', email:'scopi@apsg.ro' },
-
 {id:'616', judet: 'gorj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: 'SE BORDNETZE SRL,PL TG-JIU', adresa: 'BUCHIN,LUNCA GROFULUI DN6,KM 450', locDeMuncaVacant: 'ADMINISTRATOR RETEA CALCULATOARE', conditiiDeOcupare: 'Studii superioare,vechime minim 1 an', nrLocuri: '1', telefon: '0255506424', email:'scopi@apsg.ro' },
-
 {id:'617', judet: 'gorj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: 'SE BORNETZE SRL,PL TG-JIU', adresa: 'BUCHIN,LUNCA GROFULUI DN6,KM 450', locDeMuncaVacant: 'INGINER PRODUCTIE', conditiiDeOcupare: 'Studii superioare,vechime minim 1 an', nrLocuri: '1', telefon: '0255506424', email:'scopi@apsg.ro' },
-
 {id:'618', judet: 'gorj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: 'STAR MEDIA SRL', adresa: 'Slt. Vasile Militaru  Bl. 1, Sc. 1, Et. 4, Ap. 17 Loc. TÂRGU JIU, Jud. GORJ', locDeMuncaVacant: 'CONFECTIONER-ASAMBLOR ARTICOLE DIN TEXTILE', conditiiDeOcupare: 'Minim studii profesionale', nrLocuri: '10', telefon: '0766738490', email:'marlenpop@yahoo.com' },
-
 {id:'619', judet: 'dolj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: 'Tregi Direct Service Srl', adresa: 'STR. FRAŢII GOLEŞTI, Nr. 108A', locDeMuncaVacant: 'Operator Vanzari Prin Telefon', conditiiDeOcupare: 'Calificare în domeniu', nrLocuri: '1', telefon: '0212308060', email:'Jobtregidirectservice.com' },
-
 {id:'620', judet: 'dolj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: 'Valyscom Roiesti Srl', adresa: 'Calea Severinului 42a, Loc. Craiova, Jud. Dolj', locDeMuncaVacant: 'Bucatar', conditiiDeOcupare: 'Calificare în domeniu', nrLocuri: '1', telefon: '0251588414', email:'scopi@apsg.ro' },
-
 {id:'621', judet: 'gorj', luna: 'noiembrie', img: 'images/angajari.jpg', angajator: 'VILOMAR COMPREST SRL', adresa: 'COMPLEX COMERCIAL PIAŢA CENTRALĂ, Loc. TÂRGU JIU, Jud. GORJ', locDeMuncaVacant: 'Vanzator', conditiiDeOcupare: 'Calificare in domeniu', nrLocuri: '2', telefon: '0749029236', email:'scopi@apsg.ro' },
-
 {id:'623', judet: 'gorj', luna: 'octombrie', img: 'images/angajari.jpg', angajator: 'Universitatea din Craiova, Judetul Dolj',  adresa: 'Str. A. I. Cuza nr.13,  sala nr. 118, Craiova,  judetul Dolj,', locDeMuncaVacant: 'Muncitori fochisti Cod cor 818207',  conditiiDeOcupare: 'calificat de calificare in meseria de fochist; autorizatie de fochist eliberata de I.S.C.I.R. valabila (insotita de talon).', nrLocuri: '4', telefon:  '0251 414987', email: 'scopi@apsg.ro' }, 
 {id:'624', judet: 'gorj', luna: 'octombrie', img: 'images/angajari.jpg', angajator: 'Alyss-nicky SRL',  adresa: 'B-dul 1 Mai 64, Loc. Craiova', locDeMuncaVacant: 'Patiser',  conditiiDeOcupare: 'Calificare în domeniu', nrLocuri: '1', telefon:  '0743291161', email: 'scopi@apsg.ro' }, 
 {id:'625', judet: 'gorj', luna: 'octombrie', img: 'images/angajari.jpg', angajator: 'Anairo SRL',  adresa: 'Str.N Titulescu nr.1,Tg-Jiu Gorj', locDeMuncaVacant: 'Mecanic Utilaje',  conditiiDeOcupare: 'Stapanirea tehnicilor de lucru legate de functie,cunostinte si experienta in domeniu', nrLocuri: '1', telefon:  '0725913415', email: 'anairosrl@yahoo.com' }, 
@@ -1221,12 +987,12 @@ const locuri = [
 {id:'629', judet: 'gorj', luna: 'octombrie', img: 'images/angajari.jpg', angajator: 'EUROLINES TUI TRAVEL CENTER',  adresa: 'BDUL. Prefect Gavril Tudoras 15 B,Loc munca Tg-Jiu', locDeMuncaVacant: 'Consultanti turism',  conditiiDeOcupare: 'Studii medii,abilitati foarte bune de comunicare si negociere', nrLocuri: '3', telefon:  '0786408054', email: 'scopi@apsg.ro' }, 
 {id:'630', judet: 'gorj', luna: 'octombrie', img: 'images/angajari.jpg', angajator: 'EUROSPORT TRADING SA',  adresa: 'Strada Calea Bucuresti 9,  Loc. TÂRGU JIU, Jud. GORJ,Loc munca Tg-Jiu', locDeMuncaVacant: 'AGENT DE VÂNZARI cod COR 332203',  conditiiDeOcupare: 'Minim studii medii,disponibilitate deplasare', nrLocuri: '2', telefon:  '0253214443', email: 'office@eurosport-sa.ro' }, 
 {id:'631', judet: 'gorj', luna: 'octombrie', img: 'images/angajari.jpg', angajator: 'G T P D SRL',  adresa: 'STR. 23 AUGUST 170, Loc. TÂRGU JIU, Jud. GORJ', locDeMuncaVacant: 'PATISER cod COR 751203',  conditiiDeOcupare: 'Fara experienta in domeniu,minim 10 clase', nrLocuri: '10', telefon:  '0253227920', email: 'scopi@apsg.ro' }, 
-{id:'632', judet: 'gorj', luna: 'octombrie', img: 'images/angajari.jpg', angajator: 'Helin Management Srl',  adresa: 'Str. Aviatorilor 1010, Loc. Ghercesti, Jud. Dolj', locDeMuncaVacant: 'Lucratorbucatarie (spalator Vase Mari) in Craiova Cod Cor 941201',  conditiiDeOcupare: 'Calificare in domeniu', nrLocuri: '1', telefon:  '0762634842', email: 'scopi@apsg.ro' }, 
-{id:'633', judet: 'gorj', luna: 'octombrie', img: 'images/angajari.jpg', angajator: 'Helin Management Srl',  adresa: 'Str. Aviatorilor 1010, Loc. Ghercesti, Jud. Dolj', locDeMuncaVacant: 'Camerista Hotel in Craiova',  conditiiDeOcupare: 'Calificare în domeniu', nrLocuri: '2', telefon:  '0762634842', email: 'scopi@apsg.ro' }, 
-{id:'634', judet: 'gorj', luna: 'octombrie', img: 'images/angajari.jpg', angajator: 'Helin Management Srl',  adresa: 'Str. Aviatorilor 1010, Loc. Ghercesti, Jud. Dolj', locDeMuncaVacant: 'Camerista Hotel in Craiova',  conditiiDeOcupare: 'Calificare în deomeniu', nrLocuri: '2', telefon:  '0762634842', email: 'scopi@apsg.ro' }, 
+{id:'632', judet: 'dolj', luna: 'octombrie', img: 'images/angajari.jpg', angajator: 'Helin Management Srl',  adresa: 'Str. Aviatorilor 1010, Loc. Ghercesti, Jud. Dolj', locDeMuncaVacant: 'Lucratorbucatarie (spalator Vase Mari) in Craiova Cod Cor 941201',  conditiiDeOcupare: 'Calificare in domeniu', nrLocuri: '1', telefon:  '0762634842', email: 'scopi@apsg.ro' }, 
+{id:'633', judet: 'dolj', luna: 'octombrie', img: 'images/angajari.jpg', angajator: 'Helin Management Srl',  adresa: 'Str. Aviatorilor 1010, Loc. Ghercesti, Jud. Dolj', locDeMuncaVacant: 'Camerista Hotel in Craiova',  conditiiDeOcupare: 'Calificare în domeniu', nrLocuri: '2', telefon:  '0762634842', email: 'scopi@apsg.ro' }, 
+{id:'634', judet: 'dolj', luna: 'octombrie', img: 'images/angajari.jpg', angajator: 'Helin Management Srl',  adresa: 'Str. Aviatorilor 1010, Loc. Ghercesti, Jud. Dolj', locDeMuncaVacant: 'Camerista Hotel in Craiova',  conditiiDeOcupare: 'Calificare în deomeniu', nrLocuri: '2', telefon:  '0762634842', email: 'scopi@apsg.ro' }, 
 {id:'635', judet: 'gorj', luna: 'octombrie', img: 'images/angajari.jpg', angajator: 'MIRUAL PROD SRL',  adresa: 'Str. ANA IPĂTESCU  7  TÎRGU JIU', locDeMuncaVacant: 'PERSONAL MONTAJ MOBILA',  conditiiDeOcupare: 'Calificare in domeniu, experienta minim 1 an', nrLocuri: '5', telefon:  '0253218264', email: 'office@hansoberding.ro' }, 
-{id:'636', judet: 'gorj', luna: 'octombrie', img: 'images/angajari.jpg', angajator: 'Pan Group SA',  adresa: 'Dacia 1a, Loc. Craiova, Jud. Dolj', locDeMuncaVacant: 'Patiser in Craiova',  conditiiDeOcupare: 'Calificare în domeniu', nrLocuri: '2', telefon:  '0740115152', email: 'lilisafta@pangrup.ro' }, 
-{id:'637', judet: 'gorj', luna: 'octombrie', img: 'images/angajari.jpg', angajator: 'Premier Restaurants Romania Srl',  adresa: 'Ploiesti,B-ld Republicii,nr.136', locDeMuncaVacant: 'Lucrator Comercial in Craiova',  conditiiDeOcupare: 'Calificare în domeniu', nrLocuri: '1', telefon:  '0244407331', email: 'craiova@ro.mcd.com' }, 
+{id:'636', judet: 'dolj', luna: 'octombrie', img: 'images/angajari.jpg', angajator: 'Pan Group SA',  adresa: 'Dacia 1a, Loc. Craiova, Jud. Dolj', locDeMuncaVacant: 'Patiser in Craiova',  conditiiDeOcupare: 'Calificare în domeniu', nrLocuri: '2', telefon:  '0740115152', email: 'lilisafta@pangrup.ro' }, 
+{id:'637', judet: 'dolj', luna: 'octombrie', img: 'images/angajari.jpg', angajator: 'Premier Restaurants Romania Srl',  adresa: 'Ploiesti,B-ld Republicii,nr.136', locDeMuncaVacant: 'Lucrator Comercial in Craiova',  conditiiDeOcupare: 'Calificare în domeniu', nrLocuri: '1', telefon:  '0244407331', email: 'craiova@ro.mcd.com' }, 
 {id:'638', judet: 'gorj', luna: 'octombrie', img: 'images/angajari.jpg', angajator: 'Profi Rom Food Srl',  adresa: 'Str.Calea Sever Bocu, nr.31', locDeMuncaVacant: 'Vanzator in Coşoveni',  conditiiDeOcupare: 'Calificare în domeniu', nrLocuri: '1', telefon:  '0372568911', email: 'resurseumane@profi.ro' }, 
 {id:'639', judet: 'gorj', luna: 'octombrie', img: 'images/angajari.jpg', angajator: 'Restaurant Bacolux SRL',  adresa: 'CALEA SEVERINULUI 3 CRAIOVA', locDeMuncaVacant: 'Bucatar',  conditiiDeOcupare: 'Calificare în domeniu', nrLocuri: '1', telefon:  '0251 487 217', email: 'ru@bacolux.ro' }, 
 {id:'640', judet: 'gorj', luna: 'octombrie', img: 'images/angajari.jpg', angajator: 'Restaurant Bacolux SRL',  adresa: 'CALEA SEVERINULUI 3 CRAIOVA', locDeMuncaVacant: 'Ajutor Ospatar',  conditiiDeOcupare: 'Calificare în domeniu', nrLocuri: '2', telefon:  '0251 487 217', email: 'ru@bacolux.ro' }, 
