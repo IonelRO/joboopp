@@ -1,0 +1,37 @@
+public function up()
+{
+    Schema::table('ionel_locuridemunca_', function($table)
+    {
+        $table->increments('id');
+        $table->text('judet');
+        $table->text('luna');
+        $table->string('img', 1000)->nullable();
+        $table->string('angajator', 1000);
+        $table->string('adresa');
+        $table->string('locdemuncavacant');
+        $table->string('dconditiideocupare');
+        $table->string('nrlocuri');
+        $table->string('telefon');
+        $table->string('email');
+        $table->dropColumn('nr');
+    });
+}
+
+public function down()
+{
+    Schema::table('ionel_locuridemunca_', function($table)
+    {
+        $table->dropColumn('id');
+        $table->dropColumn('judet');
+        $table->dropColumn('luna');
+        $table->dropColumn('img');
+        $table->dropColumn('angajator');
+        $table->dropColumn('adresa');
+        $table->dropColumn('locdemuncavacant');
+        $table->dropColumn('dconditiideocupare');
+        $table->dropColumn('nrlocuri');
+        $table->dropColumn('telefon');
+        $table->dropColumn('email');
+        $table->integer('nr');
+    });
+}
