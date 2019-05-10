@@ -1104,11 +1104,9 @@ function Home() {
                   <li><a href="" data-filter=".gorj">Gorj</a></li>
                   <li><a href="" data-filter=".dolj">Dolj</a></li>
                   <li><a href="" data-filter=".hunedoara">Hunedoara</a></li>
-                  <li><a href="" data-filter=".septembrie">Septembrie 2018</a></li>
-                  <li><a href="" data-filter=".octombrie">Octombrie 2018</a></li>
-                  <li><a href="" data-filter=".noiembrie">Noiembrie 2018</a></li>
-                  <li><a href="" data-filter=".decembrie">Decembrie 2018</a></li>
-                  <li><a href="" data-filter=".ianuarie">Ianuarie 2019</a></li>
+                  <li><a href="" data-filter=".ianuarie">Ianuarie</a></li>
+                  <li><a href="" data-filter=".februarie">Februarie</a></li>
+                  <li><a href="" data-filter=".martie">Martie</a></li>
                 </ul>
               </div>
               <div className="isotope-container row grid-space-20">
